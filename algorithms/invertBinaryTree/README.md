@@ -9,7 +9,8 @@ Invert a binary tree.
    /   \
   2     7
  / \   / \
-1   3 6   9```
+1   3 6   9
+```
 
 to
 
@@ -18,7 +19,8 @@ to
    /   \
   7     2
  / \   / \
-9   6 3   1```
+9   6 3   1
+```
 
 **Trivia:**  
 This problem was inspired by [this original tweet](https://twitter.com/mxcl/status/608682016205344768) by [Max Howell](https://twitter.com/mxcl):
