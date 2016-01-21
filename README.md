@@ -1,2 +1,2 @@
 # leetcode
-My leetcode solutions
+My leetcode solutions for Javascript / Swift / Mysql
