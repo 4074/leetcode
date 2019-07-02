@@ -24,5 +24,32 @@ function findMaxChildArraySum(source) {
 }
 
 findMaxChildArraySum([-2, 11, -4, 13, -5, -2])
+```
 
+```
+function findMaxChildArraySum2(source) {
+    const length = source.length
+    if (length === 0) return null;
+
+    let result = source[0], start = 0, end = 0, rest = 0
+
+    for (let i=1; i<length; i++) {
+        if (source[i] > (result + source[i])) {
+            rest = 0
+            result = source[i]
+            start = i
+            end = i
+        } else {
+            if (rest + source[i] > 0) {
+                result += rest + source[i]
+                end = i
+                rest = 0
+            } else {
+                rest += source[i]
+            }
+        }
+    }
+
+    return [result, start, end]
+}
 ```
