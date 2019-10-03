@@ -73,3 +73,24 @@ var removeDuplicates = function(s, k) {
     return stack.reduce((result, item) => result + item.char.repeat(item.count), '')
 };
 ```
+
+```javascript
+/**
+ * @param {string} s
+ * @param {number} k
+ * @return {string}
+ */
+var removeDuplicates = function(s, k) {
+    const n = s.length, count = []
+    let i = 0
+    s = s.split('')
+    
+    for (let j=0; j<n; i++, j++) {
+        s[i] = s[j]
+        count[i] = i > 0 && s[i-1] === s[j] ? count[i-1] + 1 : 1
+        if (count[i] >= k) i -= k
+    }
+    
+    return s.slice(0, i).join('')
+};
+```
