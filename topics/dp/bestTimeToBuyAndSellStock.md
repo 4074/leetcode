@@ -68,3 +68,18 @@ var maxProfit = function(prices) {
     return dp[dp.length - 1]
 };
 ```
+
+```javascript
+/**
+ * @param {number[]} prices
+ * @return {number}
+ */
+var maxProfit = function(prices) {
+    let T_i10 = 0, T_i11 = -Infinity
+    for (const price of prices) {
+        T_i10 = Math.max(T_i10, T_i11 + price)
+        T_i11 = Math.max(T_i11, -price)
+    }
+    return T_i10
+};
+```
