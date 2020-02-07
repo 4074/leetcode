@@ -31,7 +31,6 @@ Language: **JavaScript**
  * @return {number}
  */
 var numTrees = function(n) {
-    if (!n) return 1
     const dp = Array(n + 1).fill(0)
     dp[0] = 1
     

@@ -67,6 +67,5 @@ var divisorGame = function(N) {
     }
     
     return dp(N)
-    const r = dp(N)
 };
 ```
