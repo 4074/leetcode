@@ -52,7 +52,23 @@ My leetcode solutions for Javascript / Swift / Mysql
     - [1140\. Stone Game II](./topics/dp/stoneGameII.md)
     - [1025\. Divisor Game](./topics/dp/divisorGame.md)
 
-### Graph
+### Search
 
-- dfs
-- bfs
+- Depth-first Search
+    - [77\. Combinations](./topics/search/combinations.md)
+    - [39\. Combination Sum](./topics/search/combinationSum.md)
+    - [40\. Combination Sum II](./topics/search/combinationSumII.md)
+    - [22\. Generate Parentheses](./topics/search/generateParentheses.md)
+    - [51\. N-Queens](./topics/search/n-queens.md)
+    - [52\. N-Queens II](./topics/search/n-queensII.md)
+- Breadth-first Search
+    - [127\. Word Ladder](./topics/search/wordLadder.md)
+- Combination
+    - [77\. Combinations](./topics/search/combinations.md)
+    - [39\. Combination Sum](./topics/search/combinationSum.md)
+    - [40\. Combination Sum II](./topics/search/combinationSumII.md)
+    - [17\. Letter Combinations of a Phone Number](./topics/search/letterCombinationsOfAPhoneNumber)
+- Permutation
+    - [46\. Permutations](./topics/search/permutations.md)
+    - [47\. Permutations II](./topics/search/permutationsII.md)
+    - [784\. Letter Case Permutation](./topics/search/letterCasePermutation.md)

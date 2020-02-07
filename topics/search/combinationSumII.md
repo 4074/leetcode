@@ -51,7 +51,7 @@ var combinationSum2 = function(candidates, target) {
     const result = []
     candidates = candidates.sort((a, b) => a < b ? -1 : 1)
     
-    function search(numbers, sum, index) {
+    function dfs(numbers, sum, index) {
         if (sum === target) {
             return result.push([...numbers])
         }
@@ -60,12 +60,12 @@ var combinationSum2 = function(candidates, target) {
             if (i > index && candidates[i] === candidates[i - 1]) continue
             
             numbers.push(candidates[i])
-            search(numbers, sum + candidates[i], i + 1)
+            dfs(numbers, sum + candidates[i], i + 1)
             numbers.pop()
         }
     }
     
-    search([], 0, 0)
+    dfs([], 0, 0)
     
     return result
 };

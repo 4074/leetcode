@@ -32,22 +32,21 @@ Language: **JavaScript**
  * @return {number[][]}
  */
 var combine = function(n, k) {
-    const result = []
-    
-    function search(numbers, index) {
-        if (numbers.length === k) {
-            return result.push([...numbers])
-        }
-        
-        for (let i=index; i<=n; i++) {
-            numbers.push(i)
-            search(numbers, i + 1)
-            numbers.pop()
-        }
-    }
-    
-    search([], 1)
-    
-    return result
+    const result = []
+    
+    function dfs(numbers, index) {
+        if (numbers.length === k) {
+            return result.push([...numbers])
+        }
+        for (let i = index; i <= n; i += 1) {
+            numbers.push(i)
+            dfs(numbers, i + 1)
+            numbers.pop()
+        }
+    }
+    
+    dfs([], 1)
+    
+    return result
 };
 ```
