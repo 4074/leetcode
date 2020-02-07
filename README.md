@@ -18,6 +18,7 @@ My leetcode solutions for Javascript / Swift / Mysql
     - [813\. Largest Sum of Averages](./topics/dp/largestSumOfAverages.md)
 - Area
     - [1024\. Video Stitching](./topics/dp/videoStitching.md)
+    - [1326\. Minimum Number of Taps to Open to Water a Garden](./topics/dp/minimumNumberOfTapsToOpenToWaterAGarden.md)
 - Matrix
     - [1314\. Matrix Block Sum](./topics/dp/matrixBlockSum.md)
 - Tree
