@@ -16,6 +16,7 @@ My leetcode solutions for Javascript / Swift / Mysql
 - Group
     - [1105\. Filling Bookcase Shelves](./topics/dp/fillingBookcaseShelves.md)
     - [813\. Largest Sum of Averages](./topics/dp/largestSumOfAverages.md)
+    - [1335\. Minimum Difficulty of a Job Schedule](./topics/dp/minimumDifficultyOfAJobSchedule.md)
 - Area
     - [1024\. Video Stitching](./topics/dp/videoStitching.md)
     - [1326\. Minimum Number of Taps to Open to Water a Garden](./topics/dp/minimumNumberOfTapsToOpenToWaterAGarden.md)
