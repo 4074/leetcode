@@ -64,6 +64,7 @@ My leetcode solutions for Javascript / Swift / Mysql
     - [52\. N-Queens II](./topics/search/n-queensII.md)
 - Breadth-first Search
     - [127\. Word Ladder](./topics/search/wordLadder.md)
+    - [1345\. Jump Game IV](./topics/search/jumpGameIV.md)
 - Combination
     - [77\. Combinations](./topics/search/combinations.md)
     - [39\. Combination Sum](./topics/search/combinationSum.md)
