@@ -74,3 +74,8 @@ My leetcode solutions for Javascript / Swift / Mysql
     - [46\. Permutations](./topics/search/permutations.md)
     - [47\. Permutations II](./topics/search/permutationsII.md)
     - [784\. Letter Case Permutation](./topics/search/letterCasePermutation.md)
+
+### Tree
+
+- Binary Search Tree
+    - [1305\. All Elements in Two Binary Search Trees](./topics/tree/allElementsInTwoBinarySearchTrees.md)
