@@ -52,6 +52,8 @@ My leetcode solutions for Javascript / Swift / Mysql
     - [877\. Stone Game](./topics/dp/stoneGame.md)
     - [1140\. Stone Game II](./topics/dp/stoneGameII.md)
     - [1025\. Divisor Game](./topics/dp/divisorGame.md)
+- Mutiple Sub Problems
+    - [1301\. Number of Paths with Max Score](./topics/dp/numberOfPathsWithMaxScore.md)
 
 ### Search
 
