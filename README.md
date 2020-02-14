@@ -68,6 +68,7 @@ My leetcode solutions for Javascript / Swift / Mysql
     - [127\. Word Ladder](./topics/search/wordLadder.md)
     - [1306\. Jump Game III](./topics/search/jumpGameIII.md)
     - [1345\. Jump Game IV](./topics/search/jumpGameIV.md)
+    - [1298\. Maximum Candies You Can Get from Boxes](./topics/search/maximumCandiesYouCanGetFromBoxes.md)
 - Combination
     - [77\. Combinations](./topics/search/combinations.md)
     - [39\. Combination Sum](./topics/search/combinationSum.md)
