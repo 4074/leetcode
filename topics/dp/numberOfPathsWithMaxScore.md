@@ -76,3 +76,45 @@ var pathsWithMaxScore = function(board) {
     return dp[board.length - 1][board[0].length - 1]
 };
 ```
+
+Split Sub Problems
+```javascript
+/**
+ * @param {string[]} board
+ * @return {number[]}
+ */
+var pathsWithMaxScore = function(board) {
+    const dp = Array(board.length + 1).fill().
+        map(() => Array(board[0].length + 1).fill(0))
+    const steps = Array(board.length + 1).fill().
+        map(() => Array(board[0].length + 1).fill(0))
+    const mod = Math.pow(10, 9) + 7
+    
+    steps[board.length - 1][board[0].length - 1] = 1
+    for (let i = board.length - 1; i >= 0; i -= 1) {
+        for (let j = board[0].length - 1; j >= 0; j -= 1) {
+            const char = board[i][j]
+            if (char === 'S' || char === 'X') continue
+            const max = Math.max(
+                dp[i + 1][j],
+                dp[i][j + 1],
+                dp[i + 1][j + 1]
+            )
+            
+            if (dp[i + 1][j] === max) {
+                steps[i][j] = (steps[i][j] + steps[i + 1][j]) % mod
+            }
+            if (dp[i][j + 1] === max) {
+                steps[i][j] = (steps[i][j] + steps[i][j + 1]) % mod
+            }
+            if (dp[i + 1][j + 1] === max) {
+                steps[i][j] = (steps[i][j] + steps[i + 1][j + 1]) % mod
+            }
+            if (steps[i][j])
+                dp[i][j] = ((char === 'E' ? 0 : parseInt(char)) + max) % mod
+        }
+    }
+    
+    return [dp[0][0], steps[0][0]]
+};
+```
