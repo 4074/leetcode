@@ -80,6 +80,8 @@ My leetcode solutions for Javascript / Swift / Mysql
     - [46\. Permutations](./topics/search/permutations.md)
     - [47\. Permutations II](./topics/search/permutationsII.md)
     - [784\. Letter Case Permutation](./topics/search/letterCasePermutation.md)
+- Binary Search
+    - [1283\. Find the Smallest Divisor Given a Threshold](./topics/search/find-the-smallest-divisor-given-a-threshold.md)
 
 ### Tree
 
