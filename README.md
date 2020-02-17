@@ -56,6 +56,11 @@ My leetcode solutions for Javascript / Swift / Mysql
 - Mutiple Sub Problems
     - [1301\. Number of Paths with Max Score](./topics/dp/numberOfPathsWithMaxScore.md)
 
+### Greedy
+- Greedy
+    - [1353\. Maximum Number of Events That Can Be Attended](./topics/dp/maximum-number-of-events-that-can-be-attended.md)
+    - [1326\. Minimum Number of Taps to Open to Water a Garden](./topics/dp/minimumNumberOfTapsToOpenToWaterAGarden.md)
+
 ### Search
 
 - Depth-first Search
