@@ -17,6 +17,7 @@ My leetcode solutions for Javascript / Swift / Mysql
     - [1105\. Filling Bookcase Shelves](./topics/dp/fillingBookcaseShelves.md)
     - [813\. Largest Sum of Averages](./topics/dp/largestSumOfAverages.md)
     - [1335\. Minimum Difficulty of a Job Schedule](./topics/dp/minimumDifficultyOfAJobSchedule.md)
+    - [1278\. Palindrome Partitioning III](./topics/dp/palindrome-partitioning-iii.md)
 - Area
     - [1024\. Video Stitching](./topics/dp/videoStitching.md)
     - [1326\. Minimum Number of Taps to Open to Water a Garden](./topics/dp/minimumNumberOfTapsToOpenToWaterAGarden.md)
@@ -29,6 +30,7 @@ My leetcode solutions for Javascript / Swift / Mysql
 - Palindromic
     - [516\. Longest Palindromic Subsequence](./topics/dp/longestPalindromicSubsequence.md)
     - [647\. Palindromic Substrings](./topics/dp/palindromicSubstrings.md)
+    - [1278\. Palindrome Partitioning III](./topics/dp/palindrome-partitioning-iii.md)
 - Buy And Sell Stock
     - [121\. Best Time to Buy and Sell Stock](./topics/dp/bestTimeToBuyAndSellStock.md)
     - [122\. Best Time to Buy and Sell Stock II](./topics/dp/bestTimeToBuyAndSellStockII.md)
