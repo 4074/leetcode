@@ -50,19 +50,21 @@ Language: **JavaScript**
  * @return {number}
  */
 var oddCells = function(n, m, indices) {
-    const matrix = Array(n).fill(0).map(i => Array(m).fill(0))
-    let result = 0
-    
-    for (let k=0; k<indices.length; k++) {
-        const pair = indices[k]
-        for (let i=0; i<n; i++) {
-            for (let j=0; j<m; j++) {
-                if (i === pair[0]) matrix[i][j] += 1
-                if (j === pair[1]) matrix[i][j] += 1
-                if (k === indices.length - 1) result += matrix[i][j] % 2
-            }
-        }
-    }
-    return result
+    const rows = Array(n).fill(0)
+    const cols = Array(m).fill(0)
+    
+    for (const indice of indices) {
+        rows[indice[0]] += 1
+        cols[indice[1]] += 1
+    }
+    
+    let count = 0
+    for (let i = 0; i < n; i += 1) {
+        for (let j = 0; j < m; j += 1) {
+            count += (rows[i] + cols[j]) % 2
+        }
+    }
+    
+    return count
 };
 ```
