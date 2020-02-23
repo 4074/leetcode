@@ -47,7 +47,7 @@ My leetcode solutions for Javascript / Swift / Mysql
     - [646\. Maximum Length of Pair Chain](./topics/dp/maximumLengthOfPairChain.md)
     - [740\. Delete and Earn](./topics/dp/deleteAndEarn.md)
     - [638\. Shopping Offers](./topics/dp/shoppingOffers.md)
-- Get with condition
+- Get with Condition
     - [198\. House Robber](./topics/dp/houseRobber.md)
     - [740\. Delete and Earn](./topics/dp/deleteAndEarn.md)
 - Two Players Game
@@ -57,7 +57,10 @@ My leetcode solutions for Javascript / Swift / Mysql
     - [1025\. Divisor Game](./topics/dp/divisorGame.md)
 - Mutiple Sub Problems
     - [1301\. Number of Paths with Max Score](./topics/dp/numberOfPathsWithMaxScore.md)
-
+- Multiple of Number
+    - [1262\. Greatest Sum Divisible by Three](./topics/dp/greatest-sum-divisible-by-three.md)
+    - [1363\. Largest Multiple of Three](./topics/dp/largest-multiple-of-three.md)
+    
 ### Greedy
 - Greedy
     - [1353\. Maximum Number of Events That Can Be Attended](./topics/dp/maximum-number-of-events-that-can-be-attended.md)
