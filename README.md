@@ -60,6 +60,9 @@ My leetcode solutions for Javascript / Swift / Mysql
 - Multiple of Number
     - [1262\. Greatest Sum Divisible by Three](./topics/dp/greatest-sum-divisible-by-three.md)
     - [1363\. Largest Multiple of Three](./topics/dp/largest-multiple-of-three.md)
+- Math
+    - [1227\. Airplane Seat Assignment Probability](./topics/dp/airplaneSeatAssignmentProbability.md)
+    - [1359\. Count All Valid Pickup and Delivery Options](./topics/dp/count-all-valid-pickup-and-delivery-options.md)
     
 ### Greedy
 - Greedy
