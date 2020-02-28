@@ -95,6 +95,9 @@ My leetcode solutions for Javascript / Swift / Mysql
     - [784\. Letter Case Permutation](./topics/search/letterCasePermutation.md)
 - Binary Search
     - [1283\. Find the Smallest Divisor Given a Threshold](./topics/search/find-the-smallest-divisor-given-a-threshold.md)
+- Union Find
+    - [1202\. Smallest String With Swaps](./topics/search/smallest-string-with-swaps.md)
+    - [1318\. Minimum Flips to Make a OR b Equal to c](./topics/search/minimumFlipsToMakeAOrBQqualToC.md)
 
 ### Tree
 
