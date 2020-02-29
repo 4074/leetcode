@@ -1,3 +1,8 @@
+# Models for problems
+
+## Graph
+### Topological Sort
+```javascript
 /**
  * Topological sort
  * @param number[][] graph by linked list 
@@ -40,7 +45,5 @@ function topoSort(graph) {
 
     return sorted
 }
-
-console.log(topoSort([
-    [], [0], [1], [2]
-]))
+topoSort([[], [0], [1], [2]]) // [3, 2, 1, 0]
+```
