@@ -24,6 +24,7 @@ My leetcode solutions for Javascript / Swift / Mysql
 - Matrix
     - [1314\. Matrix Block Sum](./topics/dp/matrixBlockSum.md)
     - [1293\. Shortest Path in a Grid with Obstacles Elimination](./topics/search/shortestPathInAGridWithObstaclesElimination.md)
+    - [1368\. Minimum Cost to Make at Least One Valid Path in a Grid](./topics/search/minimum-cost-to-make-at-least-one-valid-path-in-a-grid.md)
 - Tree
     - [96\. Unique Binary Search Trees](./topics/dp/uniqueBinarySearchTrees.md)
     - [1339\. Maximum Product of Splitted Binary Tree](./topics/dp/maximumProductOfSplittedBinaryTree.md)
@@ -84,6 +85,7 @@ My leetcode solutions for Javascript / Swift / Mysql
     - [1345\. Jump Game IV](./topics/search/jumpGameIV.md)
     - [1298\. Maximum Candies You Can Get from Boxes](./topics/search/maximumCandiesYouCanGetFromBoxes.md)
     - [1293\. Shortest Path in a Grid with Obstacles Elimination](./topics/search/shortestPathInAGridWithObstaclesElimination.md)
+    - [1368\. Minimum Cost to Make at Least One Valid Path in a Grid](./topics/search/minimum-cost-to-make-at-least-one-valid-path-in-a-grid.md)
 - Combination
     - [77\. Combinations](./topics/search/combinations.md)
     - [39\. Combination Sum](./topics/search/combinationSum.md)
