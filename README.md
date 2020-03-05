@@ -107,3 +107,4 @@ My leetcode solutions for Javascript / Swift / Mysql
 
 - Binary Search Tree
     - [1305\. All Elements in Two Binary Search Trees](./topics/tree/allElementsInTwoBinarySearchTrees.md)
+    - [1172\. Dinner Plate Stacks](./topics/tree/dinner-plate-stacks.md)

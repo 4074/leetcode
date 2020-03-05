@@ -58,56 +58,70 @@ Language: **JavaScript**
 
 Insert and Inorder Travel Binary Search Tree
 ```javascript
-        if (!node) return
-        let x = root
-        let p
-        while (x) {
-            p = x
-            if (node.val < x.val) {
-                x = x.left
-            } else {
-                x = x.right
-            }
-        }
-        if (p) {
-            if (node.val < p.val) {
-                p.left = node
-            } else {
-                p.right = node
-            }
-        }
-    }
-    
-    function insertToOne(node) {
-        if (node) {
-            insertToOne(node.left)
-            insertToOne(node.right)
-            node.left = null
-            node.right = null
-            insert(root1, node)
-        }
-    }
-    
-    const result = []
-    let root
-    if (root1 && root2) {
-        root = root1
-        insertToOne(root2)
-    } else if (!root1) {
-        root = root2
-    } else {
-        root = root1
-    }
-    function output(node) {
-        if (node) {
-            output(node.left)
-            result.push(node.val)
-            output(node.right)
-        }
-    }
-    output(root)
-    
-    return result
+ /**
+ * Definition for a binary tree node.
+ * function TreeNode(val) {
+ *     this.val = val;
+ *     this.left = this.right = null;
+ * }
+ */
+/**
+ * @param {TreeNode} root1
+ * @param {TreeNode} root2
+ * @return {number[]}
+ */
+var getAllElements = function(root1, root2) {
+    function insert(root, node) {
+        if (!node) return
+        let x = root
+        let p
+        while (x) {
+            p = x
+            if (node.val < x.val) {
+                x = x.left
+            } else {
+                x = x.right
+            }
+        }
+        if (p) {
+            if (node.val < p.val) {
+                p.left = node
+            } else {
+                p.right = node
+            }
+        }
+    }
+    
+    function insertToOne(node) {
+        if (node) {
+            insertToOne(node.left)
+            insertToOne(node.right)
+            node.left = null
+            node.right = null
+            insert(root1, node)
+        }
+    }
+    
+    const result = []
+    let root
+    if (root1 && root2) {
+        root = root1
+        insertToOne(root2)
+    } else if (!root1) {
+        root = root2
+    } else {
+        root = root1
+    }
+    function output(node) {
+        if (node) {
+            output(node.left)
+            result.push(node.val)
+            output(node.right)
+        }
+    }
+    output(root)
+    
+    return result
 };
 ```
 
