@@ -1,10 +1,15 @@
-class BST {
+class BinarySearchTree {
     constructor() {
         this.root = null
     }
 
     add(val) {
-        const current = new BSTNode(val)
+        // Return the val exists
+        if (this.has(val)) return
+
+        // Find the null node with val
+        // Parent will store the null node's parent
+        const current = new Node(val)
         let parent = null
         let node = this.root
 
@@ -17,6 +22,7 @@ class BST {
             }
         }
 
+        // Insert the node into the tree, or be the root.
         if (parent) {
             if (val < parent.val) {
                 parent.left = current
@@ -35,22 +41,34 @@ class BST {
         if (current) {
             let { parent, node } = current
             let child = null
+            
             if (!node.left) {
+                // 1. No left child, the right child take the current place.
                 child = node.right
             } else if (!node.right) {
+                // 2. No right child, the left child take the current place.
                 child = node.left
             } else {
+                // 3. Has two children, find the min node of right child.
+                // Remove it from tree, and then insert it into current place.
                 const minChildOfRight = this.findMinChild(node.right)
-                if (node === minChildOfRight.parent) {
+
+                if (minChildOfRight.node === node.right) {
+                    // 3.1 If the min node is current's right child, the same as 1
                     child = minChildOfRight.node
                 } else {
+                    // The min child has no left child, and has right child.
+                    // So remove it using a shorthand impletement, but not use this.remove
                     minChildOfRight.parent.left = minChildOfRight.node.right
                     child = minChildOfRight.node
                     child.right = node.right
                 }
+
+                // Link current left child to the new current
                 child.left = node.left
             }
 
+            // Link the new current node to the parent
             if (parent) {
                 parent[parent.val < node.val ? 'right' : 'left'] = child
             } else {
@@ -62,6 +80,15 @@ class BST {
     min() {
         const minChild = this.findMinChild(this.root)
         return minChild && minChild.node && minChild.node.val
+    }
+
+    max() {
+        let node = this.root
+        if (!node) return
+        while (node.right) {
+            node = node.right
+        }
+        return node.val
     }
 
     has(val) {
@@ -101,15 +128,6 @@ class BST {
         }
     }
 
-    max() {
-        let node = this.root
-        if (!node) return
-        while (node.right) {
-            node = node.right
-        }
-        return node.val
-    }
-
     inorder() {}
 
     preorder() {}
@@ -117,7 +135,7 @@ class BST {
     postorder() {}
 }
 
-class BSTNode {
+class Node {
     constructor(val) {
         this.val = val
         this.left = null
@@ -125,10 +143,12 @@ class BSTNode {
     }
 }
 
-const tree = new BST()
-tree.add(5).add(4).add(8).add(6).add(7)
+const tree = new BinarySearchTree()
+tree.add(1).add(2).add(0)
 console.log(tree)
 console.log(tree.min())
 console.log(tree.max())
-tree.remove(5)
+tree.remove(1)
+console.log(tree)
+tree.remove(0)
 console.log(tree)
