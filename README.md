@@ -111,3 +111,16 @@ My leetcode solutions for Javascript / Swift / Mysql
 - Binary Search Tree
     - [1305\. All Elements in Two Binary Search Trees](./topics/tree/allElementsInTwoBinarySearchTrees.md)
     - [1172\. Dinner Plate Stacks](./topics/tree/dinner-plate-stacks.md)
+
+### String
+
+- Frequency
+    - [1177\. Can Make Palindrome from Substring](./topics/string/can-make-palindrome-from-substring.md)
+    - [1178\. Number of Valid Words for Each Puzzle](./topics/string/number-of-valid-words-for-each-puzzle.md)
+
+- Match
+    - [1316\. Distinct Echo Substrings](./topics/string/distinctEchoSubstrings.md)
+
+- Bit
+    - [1177\. Can Make Palindrome from Substring](./topics/string/can-make-palindrome-from-substring.md)
+    - [1178\. Number of Valid Words for Each Puzzle](./topics/string/number-of-valid-words-for-each-puzzle.md)
