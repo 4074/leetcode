@@ -82,6 +82,8 @@ My leetcode solutions for Javascript / Swift / Mysql
     - [22\. Generate Parentheses](./topics/search/generateParentheses.md)
     - [51\. N-Queens](./topics/search/n-queens.md)
     - [52\. N-Queens II](./topics/search/n-queensII.md)
+    - [1372\. Longest ZigZag Path in a Binary Tree](./topics/search/longest-zigzag-path-in-a-binary-tree.md)
+    - [1373\. Maximum Sum BST in Binary Tree](./topics/search/maximum-sum-bst-in-binary-tree.md)
     - [1377\. Frog Position After T Seconds](./topics/search/frog-position-after-t-seconds.md)
 - Breadth-first Search
     - [127\. Word Ladder](./topics/search/wordLadder.md)
@@ -109,6 +111,9 @@ My leetcode solutions for Javascript / Swift / Mysql
 
 ### Tree
 
+- Sub Tree
+    - [1372\. Longest ZigZag Path in a Binary Tree](./topics/search/longest-zigzag-path-in-a-binary-tree.md)
+    - [1373\. Maximum Sum BST in Binary Tree](./topics/search/maximum-sum-bst-in-binary-tree.md)
 - Binary Search Tree
     - [1305\. All Elements in Two Binary Search Trees](./topics/tree/allElementsInTwoBinarySearchTrees.md)
     - [1172\. Dinner Plate Stacks](./topics/tree/dinner-plate-stacks.md)
@@ -118,6 +123,7 @@ My leetcode solutions for Javascript / Swift / Mysql
 - Frequency
     - [1177\. Can Make Palindrome from Substring](./topics/string/can-make-palindrome-from-substring.md)
     - [1178\. Number of Valid Words for Each Puzzle](./topics/string/number-of-valid-words-for-each-puzzle.md)
+    - [1371\. Find the Longest Substring Containing Vowels in Even Counts](./topics/string/find-the-longest-substring-containing-vowels-in-even-counts.md)
 
 - Match
     - [1316\. Distinct Echo Substrings](./topics/string/distinctEchoSubstrings.md)
@@ -125,3 +131,4 @@ My leetcode solutions for Javascript / Swift / Mysql
 - Bit
     - [1177\. Can Make Palindrome from Substring](./topics/string/can-make-palindrome-from-substring.md)
     - [1178\. Number of Valid Words for Each Puzzle](./topics/string/number-of-valid-words-for-each-puzzle.md)
+    - [1371\. Find the Longest Substring Containing Vowels in Even Counts](./topics/string/find-the-longest-substring-containing-vowels-in-even-counts.md)
