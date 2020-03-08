@@ -1,4 +1,4 @@
-# Models for problems
+# Patterns for algorithm
 
 ## Graph
 ### Topological Sort
