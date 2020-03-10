@@ -69,43 +69,184 @@ D.pop()            // Returns -1\.  There are still no stacks.
 Language: **JavaScript**
 
 ```javascript
-        if (!root) return
-        let parent = null
-        let node = root
-        while (node.left) {
-            parent = node
-            node = node.left
-        }
-        return {
-            parent,
-            node
-        }
-    }
-​
-    max() {
-        let node = this.root
-        if (!node) return
-        while (node.right) {
-            node = node.right
-        }
-        return node.val
-    }
-​
-    inorder() {}
-​
-    preorder() {}
-​
-    postorder() {}
+/**
+ * @param {number} capacity
+ */
+var DinnerPlates = function(capacity) {
+    this.capacity = capacity
+    this.stacks = []
+    this.pushTree = new BST()
+};
+
+/** 
+ * @param {number} val
+ * @return {void}
+ */
+DinnerPlates.prototype.push = function(val) {
+    let pushIndex = this.pushTree.min()
+    if (pushIndex === undefined) pushIndex = this.stacks.length - 1
+    if (pushIndex < 0 || this.stacks[pushIndex].length === this.capacity) {
+        pushIndex += 1
+        this.stacks.push([])
+    }
+    this.stacks[pushIndex].push(val)
+    if (this.stacks[pushIndex].length === this.capacity) {
+        this.pushTree.remove(pushIndex)
+    }  
+};
+
+/**
+ * @return {number}
+ */
+DinnerPlates.prototype.pop = function() {
+    return this.popAtStack(this.stacks.length - 1)
+};
+
+/** 
+ * @param {number} index
+ * @return {number}
+ */
+DinnerPlates.prototype.popAtStack = function(index) {
+    if (index < 0 || index >= this.stacks.length || !this.stacks[index].length) {
+        return -1
+    }
+        
+    const val = this.stacks[index].pop()
+    
+    let l = this.stacks.length - 1
+    while (l >= 0 && !this.stacks[l].length) {
+        this.stacks.pop()
+        this.pushTree.remove(l)
+        l -= 1
+    }
+    if (index < l) {
+        this.pushTree.add(index)
+    }
+    return val
+};
+
+class BST {
+    constructor() {
+        this.root = null
+    }
+
+    add(val) {
+        if (this.has(val)) return
+        const current = new BSTNode(val)
+        let parent = null
+        let node = this.root
+
+        while (node) {
+            parent = node
+            if (val < node.val) {
+                node = node.left
+            } else {
+                node = node.right
+            }
+        }
+
+        if (parent) {
+            if (val < parent.val) {
+                parent.left = current
+            } else {
+                parent.right = current
+            }
+        } else {
+            this.root = current
+        }
+
+        return this
+    }
+
+    remove(val) {
+        const current = this.fincChild(this.root, val)
+        if (current) {
+            let { parent, node } = current
+            let child = null
+            if (!node.left) {
+                child = node.right
+            } else if (!node.right) {
+                child = node.left
+            } else {
+                const minChildOfRight = this.findMinChild(node.right)
+                if (!minChildOfRight.parent) {
+                    child = minChildOfRight.node
+                } else {
+                    minChildOfRight.parent.left = minChildOfRight.node.right
+                    child = minChildOfRight.node
+                    child.right = node.right
+                }
+                child.left = node.left
+            }
+
+            if (parent) {
+                parent[parent.val < node.val ? 'right' : 'left'] = child
+            } else {
+                this.root = child
+            }
+        }
+    }
+
+    min() {
+        const minChild = this.findMinChild(this.root)
+        return minChild && minChild.node && minChild.node.val
+    }
+
+    has(val) {
+        return !!this.fincChild(this.root, val)
+    }
+
+    fincChild(root, val) {
+        let parent = null
+        let node = root
+        while (node) {
+            if (node.val === val) {
+                return {
+                    parent,
+                    node
+                }
+            }
+            parent = node
+            if (val < node.val) {
+                node = node.left
+            } else {
+                node = node.right
+            }
+        }
+    }
+
+    findMinChild(root) {
+        if (!root) return
+        let parent = null
+        let node = root
+        while (node.left) {
+            parent = node
+            node = node.left
+        }
+        return {
+            parent,
+            node
+        }
+    }
+
+    max() {
+        let node = this.root
+        if (!node) return
+        while (node.right) {
+            node = node.right
+        }
+        return node.val
+    }
 }
-​
+
 class BSTNode {
-    constructor(val) {
-        this.val = val
-        this.left = null
-        this.right = null
-    }
+    constructor(val) {
+        this.val = val
+        this.left = null
+        this.right = null
+    }
 }
-​
+
 /** 
  * Your DinnerPlates object will be instantiated and called as such:
  * var obj = new DinnerPlates(capacity)
