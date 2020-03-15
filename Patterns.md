@@ -1,5 +1,44 @@
 # Patterns for algorithm
 
+## Array
+### Priority Queue
+```javascript
+class PriorityQueue {
+    constructor() {
+        this.length = 0
+        this.arr = []
+    }
+
+    push(val) {
+        const index = this.findInsertIndex(val)
+        this.arr.splice(index, 0, val)
+        this.length += 1
+        return this
+    }
+
+    pop() {
+        if (this.length) this.length -= 1
+        return this.arr.pop()
+    }
+
+    findInsertIndex(val) {
+        let left = 0, right = this.arr.length
+        while (left < right) {
+            const mid = Math.floor(left + right / 2)
+            if (val >= this.arr[mid]) {
+                right = mid
+            } else {
+                left = mid + 1
+            }
+        }
+        return left
+    }
+}
+
+const queue = new PriorityQueue()
+queue.push(3).push(4).push(2).push(6).push(5).push(1)
+```
+
 ## Graph
 ### Topological Sort
 ```javascript
