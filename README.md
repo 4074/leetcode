@@ -136,3 +136,8 @@ My leetcode solutions for Javascript / Swift / Mysql
     - [1177\. Can Make Palindrome from Substring](./topics/string/can-make-palindrome-from-substring.md)
     - [1178\. Number of Valid Words for Each Puzzle](./topics/string/number-of-valid-words-for-each-puzzle.md)
     - [1371\. Find the Longest Substring Containing Vowels in Even Counts](./topics/string/find-the-longest-substring-containing-vowels-in-even-counts.md)
+
+### Math
+
+- common
+    - [1131\. Maximum of Absolute Value Expression](./topics/math/maximum-of-absolute-value-expression.md)
