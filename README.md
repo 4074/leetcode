@@ -29,6 +29,7 @@ My leetcode solutions for Javascript / Swift / Mysql
 - Tree
     - [96\. Unique Binary Search Trees](./topics/dp/uniqueBinarySearchTrees.md)
     - [1339\. Maximum Product of Splitted Binary Tree](./topics/dp/maximumProductOfSplittedBinaryTree.md)
+    - [1130\. Minimum Cost Tree From Leaf Values](./topics/dp/minimum-cost-tree-from-leaf-values.md)
 - Palindromic
     - [516\. Longest Palindromic Subsequence](./topics/dp/longestPalindromicSubsequence.md)
     - [647\. Palindromic Substrings](./topics/dp/palindromicSubstrings.md)
