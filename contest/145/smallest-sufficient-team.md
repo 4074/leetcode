@@ -88,3 +88,136 @@ var smallestSufficientTeam = function(req_skills, people) {
     return ans
 };
 ```
+
+DP Recursive
+```javascript
+/**
+ * @param {string[]} req_skills
+ * @param {string[][]} people
+ * @return {number[]}
+ */
+var smallestSufficientTeam = function(req_skills, people) {
+    const skillIndex = new Map()
+    let target = 0
+    for (let i = 0; i < req_skills.length; i += 1) {
+        skillIndex.set(req_skills[i], i)
+        target |= 1 << i
+    }
+    
+    const peopleValue = []
+    for (const skills of people) {
+        let v = 0
+        for (const k of skills) {
+           if (skillIndex.has(k)) {
+               v |= 1 << skillIndex.get(k)
+           } 
+        }
+        peopleValue.push(v)
+    }
+    
+    const mem = Array(target).fill(0)
+    function dp(value) {
+        if (value === target) return []
+        if (!mem[value]) {
+            let min
+            for (let i = 0; i < peopleValue.length; i += 1) {
+                const p = peopleValue[i]
+                if ((p | value) !== value) {
+                    const r = dp(p | value)
+                    if (!min || r.length < min.length) {
+                        min = [i, ...r]
+                    }
+                }
+            }
+            mem[value] = min
+        }
+        return mem[value]
+    }
+    
+    return dp(0)
+};
+```
+
+DP Loop
+```javascript
+/**
+ * @param {string[]} req_skills
+ * @param {string[][]} people
+ * @return {number[]}
+ */
+var smallestSufficientTeam = function(req_skills, people) {
+    const skillIndex = new Map()
+    let target = 0
+    for (let i = 0; i < req_skills.length; i += 1) {
+        skillIndex.set(req_skills[i], i)
+        target |= 1 << i
+    }
+    
+    const peopleValue = []
+    for (const skills of people) {
+        let v = 0
+        for (const k of skills) {
+           if (skillIndex.has(k)) {
+               v |= 1 << skillIndex.get(k)
+           } 
+        }
+        peopleValue.push(v)
+    }
+    
+    const dp = Array(target + 1).fill()
+    dp[0] = []
+    for (let i = 0; i < peopleValue.length; i += 1) {
+        for (let j = 0; j <= target; j += 1) {
+            if (dp[j]) {
+                const n = peopleValue[i] | j
+                if (!dp[n] || dp[j].length + 1 < dp[n].length) {
+                    dp[n] = [...dp[j], i]
+                }
+            }
+        }
+    }
+    
+    return dp[target]
+};
+```
+
+ES6 Improved
+```javascript
+/**
+ * @param {string[]} req_skills
+ * @param {string[][]} people
+ * @return {number[]}
+ */
+var smallestSufficientTeam = function(req_skills, people) {
+    const skillIndex = new Map()
+    const target = (1 << req_skills.length) - 1
+    
+    for (const [i, skill] of req_skills.entries()) {
+        skillIndex.set(skill, i)
+    }
+    
+    const peopleValue = people.map((skills) => {
+        let v = 0
+        for (const k of skills) {
+           if (skillIndex.has(k)) v |= 1 << skillIndex.get(k)
+        }
+        return v
+    })
+    
+    const dp = Array(target + 1).fill()
+    
+    dp[0] = []
+    for (const [i, pv] of peopleValue.entries()) {
+        for (let j = 0; j <= target; j += 1) {
+            if (dp[j]) {
+                const v = pv | j
+                if (!dp[v] || dp[j].length + 1 < dp[v].length) {
+                    dp[v] = [...dp[j], i]
+                }
+            }
+        }
+    }
+    
+    return dp[target]
+};
+```
