@@ -45,6 +45,7 @@ My leetcode solutions for Javascript / Swift / Mysql
 - Discontinuous
     - [983\. Minimum Cost For Tickets](./topics/dp/minimumCostForTickets.md)
     - [1105\. Filling Bookcase Shelves](./topics/dp/fillingBookcaseShelves.md)
+    - [1125\. Smallest Sufficient Team](./topics/dp/smallest-sufficient-team.md)
 - Sort First
     - [1024\. Video Stitching](./topics/dp/videoStitching.md)
     - [1048\. Longest String Chain](./topics/dp/longestStringChain.md)
@@ -61,6 +62,7 @@ My leetcode solutions for Javascript / Swift / Mysql
     - [1025\. Divisor Game](./topics/dp/divisorGame.md)
 - Mutiple Sub Problems
     - [1301\. Number of Paths with Max Score](./topics/dp/numberOfPathsWithMaxScore.md)
+    - [1125\. Smallest Sufficient Team](./topics/dp/smallest-sufficient-team.md)
 - Mutiple Sub Problem Path
     - [1186\. Maximum Subarray Sum with One Deletion](./topics/dp/maximum-subarray-sum-with-one-deletion.md)
     - [1187\. Make Array Strictly Increasing](./topics/dp/make-array-strictly-increasing.md)
@@ -138,6 +140,9 @@ My leetcode solutions for Javascript / Swift / Mysql
     - [1371\. Find the Longest Substring Containing Vowels in Even Counts](./topics/string/find-the-longest-substring-containing-vowels-in-even-counts.md)
 
 ### Math
-
 - common
     - [1131\. Maximum of Absolute Value Expression](./topics/math/maximum-of-absolute-value-expression.md)
+
+### Array
+- common
+    - [1124\. Longest Well-Performing Interval](./topics/array/longest-well-performing-interval.md)
