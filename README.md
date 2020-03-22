@@ -133,6 +133,7 @@ My leetcode solutions for Javascript / Swift / Mysql
 
 - Match
     - [1316\. Distinct Echo Substrings](./topics/string/distinctEchoSubstrings.md)
+    - [1392\. Longest Happy Prefix](./topics/string/longest-happy-prefix.md)
 
 - Bit
     - [1177\. Can Make Palindrome from Substring](./topics/string/can-make-palindrome-from-substring.md)
