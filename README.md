@@ -72,6 +72,8 @@ My leetcode solutions for Javascript / Swift / Mysql
 - Math
     - [1227\. Airplane Seat Assignment Probability](./topics/dp/airplaneSeatAssignmentProbability.md)
     - [1359\. Count All Valid Pickup and Delivery Options](./topics/dp/count-all-valid-pickup-and-delivery-options.md)
+- Recycle
+    - [1388\. Pizza With 3n Slices](./topics/dp/pizza-with-3n-slices.md)
     
 ### Greedy
 - Greedy
@@ -145,6 +147,7 @@ My leetcode solutions for Javascript / Swift / Mysql
 ### Math
 - common
     - [1131\. Maximum of Absolute Value Expression](./topics/math/maximum-of-absolute-value-expression.md)
+    - [1093\. Statistics from a Large Sample](./topics/math/statistics-from-a-large-sample.md)
 
 ### Array
 - common
