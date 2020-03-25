@@ -143,6 +143,7 @@ My leetcode solutions for Javascript / Swift / Mysql
     - [1371\. Find the Longest Substring Containing Vowels in Even Counts](./topics/string/find-the-longest-substring-containing-vowels-in-even-counts.md)
 - Parse
     - [1106\. Parsing A Boolean Expression](./topics/string/parsing-a-boolean-expression.md)
+    - [1096\. Brace Expansion II](./topics/string/brace-expansion-ii.md)
 
 ### Math
 - common
