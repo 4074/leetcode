@@ -13,6 +13,7 @@ My leetcode solutions for Javascript / Swift / Mysql
     - [1143\. Longest Common Subsequence](./topics/dp/longestCommonSubsequence.md)
     - [516\. Longest Palindromic Subsequence](./topics/dp/longestPalindromicSubsequence.md)
     - [873\. Length of Longest Fibonacci Subsequence](./topics/dp/lengthOfLongestFibonacciSubsequence.md)
+    - [1092\. Shortest Common Supersequence](./topics/dp/shortest-common-supersequence.md)
 - Group
     - [1105\. Filling Bookcase Shelves](./topics/dp/fillingBookcaseShelves.md)
     - [813\. Largest Sum of Averages](./topics/dp/largestSumOfAverages.md)
