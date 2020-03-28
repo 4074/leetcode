@@ -111,6 +111,7 @@ My leetcode solutions for Javascript / Swift / Mysql
     - [46\. Permutations](./topics/search/permutations.md)
     - [47\. Permutations II](./topics/search/permutationsII.md)
     - [784\. Letter Case Permutation](./topics/search/letterCasePermutation.md)
+    - [1079\. Letter Tile Possibilities](./topics/search/letter-tile-possibilities.md)
 - Binary Search
     - [1283\. Find the Smallest Divisor Given a Threshold](./topics/search/find-the-smallest-divisor-given-a-threshold.md)
 - Union Find
@@ -155,3 +156,7 @@ My leetcode solutions for Javascript / Swift / Mysql
 ### Array
 - common
     - [1124\. Longest Well-Performing Interval](./topics/array/longest-well-performing-interval.md)
+
+### Stack
+- Monotonic(单调栈)
+    - [1081\. Smallest Subsequence of Distinct Characters](./topics/stack/smallest-subsequence-of-distinct-characters.md)
