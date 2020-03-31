@@ -160,3 +160,7 @@ My leetcode solutions for Javascript / Swift / Mysql
 ### Stack
 - Monotonic(单调栈)
     - [1081\. Smallest Subsequence of Distinct Characters](./topics/stack/smallest-subsequence-of-distinct-characters.md)
+
+### Hash Table
+- Bit
+    - [1072\. Flip Columns For Maximum Number of Equal Rows](./topics/table/flip-columns-for-maximum-number-of-equal-rows.md)
