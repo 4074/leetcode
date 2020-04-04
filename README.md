@@ -152,6 +152,8 @@ My leetcode solutions for Javascript / Swift / Mysql
 - common
     - [1131\. Maximum of Absolute Value Expression](./topics/math/maximum-of-absolute-value-expression.md)
     - [1093\. Statistics from a Large Sample](./topics/math/statistics-from-a-large-sample.md)
+- base k
+    - [1073\. Adding Two Negabinary Numbers](./topics/math/adding-two-negabinary-numbers.md)
 
 ### Array
 - common
