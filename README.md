@@ -27,6 +27,7 @@ My leetcode solutions for Javascript / Swift / Mysql
     - [1293\. Shortest Path in a Grid with Obstacles Elimination](./topics/search/shortestPathInAGridWithObstaclesElimination.md)
     - [1368\. Minimum Cost to Make at Least One Valid Path in a Grid](./topics/search/minimum-cost-to-make-at-least-one-valid-path-in-a-grid.md)
     - [1139\. Largest 1-Bordered Square](./topics/dp/largest-1-bordered-square.md)
+    - [1074\. Number of Submatrices That Sum to Target](./topics/dp/number-of-submatrices-that-sum-to-target.md)
 - Tree
     - [96\. Unique Binary Search Trees](./topics/dp/uniqueBinarySearchTrees.md)
     - [1339\. Maximum Product of Splitted Binary Tree](./topics/dp/maximumProductOfSplittedBinaryTree.md)

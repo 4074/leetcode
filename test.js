@@ -1,27 +1,18 @@
-function convertToBaseK(n, k, chars) {
-    if (n === 0) return '0'
-    const result = []
-    while (n != 0) {
-        let r = n % k
-        n = (n - r) / k
-
-        // r is negative
-        if (r < 0) {
-            r -= k
-            n += 1
-        }
-
-        result.unshift(chars ? chars[r] : r)
+function countSubArraySumEqualToTarget(arr, target) {
+    const n = arr.length
+    const sums = Array(n + 1).fill(0)
+    const countMap = {}
+    let result = 0
+    
+    for (let i = 1; i <= n; i += 1) {
+        sums[i] = sums[i - 1] + arr[i - 1]
+        result += countMap[sums[i] - target] || 0
+        countMap[sums[i]] = (countMap[sums[i]] || 0) + 1
     }
-    return result.join('')
+    
+    return result
 }
 
 console.log(
-    convertToBaseK(18, 2) === '10010'
-)
-console.log(
-    convertToBaseK(18, 16, [0,1,2,3,4,5,6,7,8,9,'a','b','c','d','e','f']) === '12'
-)
-console.log(
-    convertToBaseK(18, -2) === '10110'
+    countSubArraySumEqualToTarget([1,2,3,4,3,2,1], 9)
 )
