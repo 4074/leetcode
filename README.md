@@ -152,15 +152,17 @@ My leetcode solutions for Javascript / Swift / Mysql
     - [1096\. Brace Expansion II](./topics/string/brace-expansion-ii.md)
 
 ### Math
-- common
+- Common
     - [1131\. Maximum of Absolute Value Expression](./topics/math/maximum-of-absolute-value-expression.md)
     - [1093\. Statistics from a Large Sample](./topics/math/statistics-from-a-large-sample.md)
-- base k
+- Base k
     - [1073\. Adding Two Negabinary Numbers](./topics/math/adding-two-negabinary-numbers.md)
 
 ### Array
-- common
+- Common
     - [1124\. Longest Well-Performing Interval](./topics/array/longest-well-performing-interval.md)
+- Sliding Window
+    - [1052\. Grumpy Bookstore Owner](./topics/array/grumpy-bookstore-owner.md)
 
 ### Stack
 - Monotonic(单调栈)
