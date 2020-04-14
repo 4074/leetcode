@@ -163,6 +163,8 @@ My leetcode solutions for Javascript / Swift / Mysql
     - [1124\. Longest Well-Performing Interval](./topics/array/longest-well-performing-interval.md)
 - Sliding Window
     - [1052\. Grumpy Bookstore Owner](./topics/array/grumpy-bookstore-owner.md)
+- Hash Table
+    - [525\. Contiguous Array](./topics/array/contiguous-array.md)
 
 ### Stack
 - Monotonic(单调栈)
