@@ -161,6 +161,7 @@ My leetcode solutions for Javascript / Swift / Mysql
 ### Array
 - Common
     - [1124\. Longest Well-Performing Interval](./topics/array/longest-well-performing-interval.md)
+    - [1053\. Previous Permutation With One Swap](./topics/array/previous-permutation-with-one-swap.md)
 - Sliding Window
     - [1052\. Grumpy Bookstore Owner](./topics/array/grumpy-bookstore-owner.md)
 - Hash Table
