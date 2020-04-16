@@ -48,6 +48,7 @@ My leetcode solutions for Javascript / Swift / Mysql
     - [983\. Minimum Cost For Tickets](./topics/dp/minimumCostForTickets.md)
     - [1105\. Filling Bookcase Shelves](./topics/dp/fillingBookcaseShelves.md)
     - [1125\. Smallest Sufficient Team](./topics/dp/smallest-sufficient-team.md)
+    - [678\. Valid Parenthesis String](./topics/dp/valid-parenthesis-string.md)
 - Sort First
     - [1024\. Video Stitching](./topics/dp/videoStitching.md)
     - [1048\. Longest String Chain](./topics/dp/longestStringChain.md)
@@ -83,6 +84,7 @@ My leetcode solutions for Javascript / Swift / Mysql
     - [1353\. Maximum Number of Events That Can Be Attended](./topics/greedy/maximum-number-of-events-that-can-be-attended.md)
     - [1326\. Minimum Number of Taps to Open to Water a Garden](./topics/dp/minimumNumberOfTapsToOpenToWaterAGarden.md)
     - [1402\. Reducing Dishes](./topics/greedy/reducing-dishes.md)
+    - [678\. Valid Parenthesis String](./topics/dp/valid-parenthesis-string.md)
 
 ### Search
 
