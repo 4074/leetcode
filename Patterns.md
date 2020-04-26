@@ -5,24 +5,46 @@
 ```javascript
 class PriorityQueue {
     constructor() {
-        this.length = 0
         this.arr = []
     }
 
     push(val) {
         const index = this.findInsertIndex(val)
         this.arr.splice(index, 0, val)
-        this.length += 1
         return this
     }
 
     pop() {
-        if (this.length) this.length -= 1
-        return this.arr.pop()
+        if (this.size()) return this.arr.pop()
+    }
+    
+    shift() {
+        if (this.size()) return this.arr.shift()
+    }
+    
+    remove(val) {
+        const index = this.findInsertIndex(val)
+        if (this.arr[index] === val) {
+            this.arr.splice(index, 1)
+            this.length -= 1
+            return val
+        }
+    }
+    
+    min() {
+        return this.size() && this.arr[this.length - 1]
+    }
+    
+    max() {
+        return this.size() && this.arr[0]
+    }
+    
+    size() {
+        return this.arr.length
     }
 
     findInsertIndex(val) {
-        let left = 0, right = this.arr.length
+        let left = 0, right = this.size()
         while (left < right) {
             const mid = Math.floor(left + right / 2)
             if (val >= this.arr[mid]) {
@@ -112,12 +134,14 @@ class BinarySearchTree {
     }
 
     max() {
-        if (this.root) return
+        if (!this.root) return
         let node = this.root
-        while (node.right) {
+        let current
+        while (node) {
+            current = node
             node = node.right
         }
-        return node.val
+        return current.val
     }
 
     has(val) {
