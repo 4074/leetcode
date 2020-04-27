@@ -23,6 +23,7 @@ My leetcode solutions for Javascript / Swift / Mysql
     - [1024\. Video Stitching](./topics/dp/videoStitching.md)
     - [1326\. Minimum Number of Taps to Open to Water a Garden](./topics/dp/minimumNumberOfTapsToOpenToWaterAGarden.md)
 - Matrix
+    - [221\. Maximal Square](./topics/dp/maximal-square.md)
     - [1314\. Matrix Block Sum](./topics/dp/matrixBlockSum.md)
     - [1293\. Shortest Path in a Grid with Obstacles Elimination](./topics/search/shortestPathInAGridWithObstaclesElimination.md)
     - [1368\. Minimum Cost to Make at Least One Valid Path in a Grid](./topics/search/minimum-cost-to-make-at-least-one-valid-path-in-a-grid.md)
