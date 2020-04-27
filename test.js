@@ -1,18 +1,47 @@
-function countSubArraySumEqualToTarget(arr, target) {
-    const n = arr.length
-    const sums = Array(n + 1).fill(0)
-    const countMap = {}
-    let result = 0
-    
-    for (let i = 1; i <= n; i += 1) {
-        sums[i] = sums[i - 1] + arr[i - 1]
-        result += countMap[sums[i] - target] || 0
-        countMap[sums[i]] = (countMap[sums[i]] || 0) + 1
+class LinkedList {
+    constructor() {
+        this.length = 0
+        this.head = null
+        this.tail = null
+    }
+
+    insert(val) {
+        const node = new LinkedListNode(val)
+        if (this.head) {
+            node.next = this.head
+            this.head.prev = node
+        } else {
+            this.tail = node
+        }
+        this.head = node
+        this.length += 1
+        return node
     }
     
-    return result
+    moveToHead(node) {
+        if (this.head === node) return
+        if (this.tail === node) this.tail = node.prev
+        if (node.prev) node.prev.next = node.next
+        if (node.next) node.next.prev = node.prev
+        node.next = this.head
+        this.head.prev = node
+        this.head = node
+    }
+
+    pop() {
+        if (!this.tail) return
+        const node = this.tail
+        this.tail = this.tail.prev
+        if (this.tail) this.tail.next = null
+        this.length -= 1
+        return node
+    }
 }
 
-console.log(
-    countSubArraySumEqualToTarget([1,2,3,4,3,2,1], 9)
-)
+class LinkedListNode {
+    constructor(val) {
+        this.val = val
+        this.prev = null
+        this.next = null
+    }
+}

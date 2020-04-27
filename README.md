@@ -171,6 +171,8 @@ My leetcode solutions for Javascript / Swift / Mysql
     - [1052\. Grumpy Bookstore Owner](./topics/array/grumpy-bookstore-owner.md)
 - Hash Table
     - [525\. Contiguous Array](./topics/array/contiguous-array.md)
+- Linked List
+    - [146\. LRU Cache](./topics/array/lru-cache.md)
 
 ### Stack
 - Monotonic(单调栈)
