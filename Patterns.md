@@ -165,16 +165,32 @@ topoSort([[], [0], [1], [2]]) // [3, 2, 1, 0]
 ### Binary Search Tree
 ```javascript
 class BinarySearchTree {
-    constructor() {
+    constructor(isSet = false) {
         this.root = null
+        this.leftFirst = true
+
+        this.isSet = isSet
+        this.counter = new Map()
     }
 
     insert(val) {
+        if (this.isSet) {
+            this.counter.set(val, (this.counter.get(val) || 0) + 1)
+            if (this.counter.get(val) > 1) return this
+        }
         this.root = this.insertNode(this.root, val)
         return this
     }
 
     delete(val) {
+        if (this.isSet) {
+            if (this.counter.get(val) > 0) {
+                this.counter.set(val, this.counter.get(val) - 1)
+                if (this.counter.get(val) > 0) {
+                    return this
+                }
+            }
+        }
         this.root = this.deleteNode(this.root, val)
         return this
     }
@@ -196,7 +212,7 @@ class BinarySearchTree {
     }
 
     has(val) {
-        return !!this.fincChild(this.root, val)
+        return !!this.findChild(this.root, val)
     }
 
     insertNode(root, val) {
@@ -210,7 +226,9 @@ class BinarySearchTree {
 
         while (current) {
             parent = current
-            if (node.val <= current.val) {
+            if (node.val === current.val) {
+                current = this.leftFirst ? current.left : current.right
+            } else if (node.val < current.val) {
                 current = current.left
             } else {
                 current = current.right
@@ -218,18 +236,26 @@ class BinarySearchTree {
         }
 
         // Insert the node into the tree.
-        if (node.val < parent.val) {
+        if (node.val === parent.val) {
+            if (this.leftFirst) {
+                parent.left = node
+            } else {
+                parent.right = node
+            }
+        } else if (node.val < parent.val) {
             parent.left = node
         } else {
             parent.right = node
         }
 
+        this.leftFirst = !this.leftFirst
+
         return root
     }
 
     deleteNode(root, val) {
-        const current = this.fincChild(root, val)
-        if (!current) return
+        const current = this.findChild(root, val)
+        if (!current) return root
         
         let { parent, node } = current
         let child = null
@@ -270,7 +296,7 @@ class BinarySearchTree {
         return root
     }
 
-    fincChild(root, val) {
+    findChild(root, val) {
         let parent = null
         let node = root
         while (node) {
