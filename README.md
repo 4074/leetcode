@@ -8,12 +8,14 @@ My leetcode solutions for Javascript / Swift / Mysql
 - Subarray
     - [53\. Maximum Subarray](./topics/dp/maximumSubarray.md)
     - [718\. Maximum Length of Repeated Subarray](./topics/dp/maximumLengthOfRepeatedSubarray.md)
+    - [1438\. Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit](./topics/array/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit.md)
 - Subsequence
     - [1027\. Longest Arithmetic Sequence](./topics/dp/longestArithmeticSequence.md)
     - [1143\. Longest Common Subsequence](./topics/dp/longestCommonSubsequence.md)
     - [516\. Longest Palindromic Subsequence](./topics/dp/longestPalindromicSubsequence.md)
     - [873\. Length of Longest Fibonacci Subsequence](./topics/dp/lengthOfLongestFibonacciSubsequence.md)
     - [1092\. Shortest Common Supersequence](./topics/dp/shortest-common-supersequence.md)
+    - [1425\. Constrained Subsequence Sum](./topics/dp/constrained-subsequence-sum.md)
 - Group
     - [1105\. Filling Bookcase Shelves](./topics/dp/fillingBookcaseShelves.md)
     - [813\. Largest Sum of Averages](./topics/dp/largestSumOfAverages.md)
@@ -169,6 +171,7 @@ My leetcode solutions for Javascript / Swift / Mysql
     - [1054\. Distant Barcodes](./topics/array/distant-barcodes.md)
 - Sliding Window
     - [1052\. Grumpy Bookstore Owner](./topics/array/grumpy-bookstore-owner.md)
+    - [1425\. Constrained Subsequence Sum](./topics/dp/constrained-subsequence-sum.md)
     - [1438\. Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit](./topics/array/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit.md)
 - Hash Table
     - [525\. Contiguous Array](./topics/array/contiguous-array.md)
@@ -178,6 +181,7 @@ My leetcode solutions for Javascript / Swift / Mysql
 ### Stack
 - Monotonic(单调栈)
     - [1081\. Smallest Subsequence of Distinct Characters](./topics/stack/smallest-subsequence-of-distinct-characters.md)
+    - [1425\. Constrained Subsequence Sum](./topics/dp/constrained-subsequence-sum.md)
 
 ### Hash Table
 - Bit
