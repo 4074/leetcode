@@ -29,6 +29,7 @@ My leetcode solutions for Javascript / Swift / Mysql
     - [1368\. Minimum Cost to Make at Least One Valid Path in a Grid](./topics/search/minimum-cost-to-make-at-least-one-valid-path-in-a-grid.md)
     - [1139\. Largest 1-Bordered Square](./topics/dp/largest-1-bordered-square.md)
     - [1074\. Number of Submatrices That Sum to Target](./topics/dp/number-of-submatrices-that-sum-to-target.md)
+    - [1444\. Number of Ways of Cutting a Pizza](./topics/dp/number-of-ways-of-cutting-a-pizza.md)
 - Tree
     - [96\. Unique Binary Search Trees](./topics/dp/uniqueBinarySearchTrees.md)
     - [1339\. Maximum Product of Splitted Binary Tree](./topics/dp/maximumProductOfSplittedBinaryTree.md)
@@ -99,6 +100,7 @@ My leetcode solutions for Javascript / Swift / Mysql
     - [1372\. Longest ZigZag Path in a Binary Tree](./topics/search/longest-zigzag-path-in-a-binary-tree.md)
     - [1373\. Maximum Sum BST in Binary Tree](./topics/search/maximum-sum-bst-in-binary-tree.md)
     - [1377\. Frog Position After T Seconds](./topics/search/frog-position-after-t-seconds.md)
+    - [1443\. Minimum Time to Collect All Apples in a Tree](./topics/search/minimum-time-to-collect-all-apples-in-a-tree.md)
 - Breadth-first Search
     - [127\. Word Ladder](./topics/search/wordLadder.md)
     - [1162\. As Far from Land as Possible](./topics/search/as-far-from-land-as-possible.md)
