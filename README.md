@@ -179,6 +179,8 @@ My leetcode solutions for Javascript / Swift / Mysql
     - [525\. Contiguous Array](./topics/array/contiguous-array.md)
 - Linked List
     - [146\. LRU Cache](./topics/array/lru-cache.md)
+- Subset
+    - [1452\. People Whose List of Favorite Companies Is Not a Subset of Another List](./topics/array/people-whose-list-of-favorite-companies-is-not-a-subset-of-another-list.md)
 
 ### Stack/Queue
 - Monotonic(单调栈)
