@@ -82,6 +82,8 @@ My leetcode solutions for Javascript / Swift / Mysql
     - [1359\. Count All Valid Pickup and Delivery Options](./topics/dp/count-all-valid-pickup-and-delivery-options.md)
 - Recycle
     - [1388\. Pizza With 3n Slices](./topics/dp/pizza-with-3n-slices.md)
+- Knapsack
+    - [1449\. Form Largest Integer With Digits That Add up to Target](./topics/dp/form-largest-integer-with-digits-that-add-up-to-target.md)
     
 ### Greedy
 - Greedy
