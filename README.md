@@ -16,6 +16,7 @@ My leetcode solutions for Javascript / Swift / Mysql
     - [873\. Length of Longest Fibonacci Subsequence](./topics/dp/lengthOfLongestFibonacciSubsequence.md)
     - [1092\. Shortest Common Supersequence](./topics/dp/shortest-common-supersequence.md)
     - [1425\. Constrained Subsequence Sum](./topics/dp/constrained-subsequence-sum.md)
+    - [1458\. Max Dot Product of Two Subsequences](./topics/dp/max-dot-product-of-two-subsequences.md)
 - Group
     - [1105\. Filling Bookcase Shelves](./topics/dp/fillingBookcaseShelves.md)
     - [813\. Largest Sum of Averages](./topics/dp/largestSumOfAverages.md)
