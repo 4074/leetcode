@@ -85,7 +85,8 @@ My leetcode solutions for Javascript / Swift / Mysql
     - [1388\. Pizza With 3n Slices](./topics/dp/pizza-with-3n-slices.md)
 - Knapsack
     - [1449\. Form Largest Integer With Digits That Add up to Target](./topics/dp/form-largest-integer-with-digits-that-add-up-to-target.md)
-    
+- Change direction
+    - [1434\. Number of Ways to Wear Different Hats to Each Other](./topics/dp/number-of-ways-to-wear-different-hats-to-each-other.md)
 ### Greedy
 - Greedy
     - [1353\. Maximum Number of Events That Can Be Attended](./topics/greedy/maximum-number-of-events-that-can-be-attended.md)
