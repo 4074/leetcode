@@ -22,6 +22,7 @@ My leetcode solutions for Javascript / Swift / Mysql
     - [813\. Largest Sum of Averages](./topics/dp/largestSumOfAverages.md)
     - [1335\. Minimum Difficulty of a Job Schedule](./topics/dp/minimumDifficultyOfAJobSchedule.md)
     - [1278\. Palindrome Partitioning III](./topics/dp/palindrome-partitioning-iii.md)
+    - [1416\. Restore The Array](./topics/dp/restore-the-array.md)
 - Area
     - [1024\. Video Stitching](./topics/dp/videoStitching.md)
     - [1326\. Minimum Number of Taps to Open to Water a Garden](./topics/dp/minimumNumberOfTapsToOpenToWaterAGarden.md)
