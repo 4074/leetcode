@@ -130,6 +130,7 @@ My leetcode solutions for Javascript / Swift / Mysql
     - [1079\. Letter Tile Possibilities](./topics/search/letter-tile-possibilities.md)
 - Binary Search
     - [1283\. Find the Smallest Divisor Given a Threshold](./topics/search/find-the-smallest-divisor-given-a-threshold.md)
+    - [5455\. Minimum Number of Days to Make m Bouquets](./topics/search/minimum-number-of-days-to-make-m-bouquets.md)
 - Union Find
     - [1202\. Smallest String With Swaps](./topics/search/smallest-string-with-swaps.md)
     - [1318\. Minimum Flips to Make a OR b Equal to c](./topics/search/minimumFlipsToMakeAOrBQqualToC.md)
