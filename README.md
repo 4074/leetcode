@@ -23,6 +23,7 @@ My leetcode solutions for Javascript / Swift / Mysql
     - [1335\. Minimum Difficulty of a Job Schedule](./topics/dp/minimumDifficultyOfAJobSchedule.md)
     - [1278\. Palindrome Partitioning III](./topics/dp/palindrome-partitioning-iii.md)
     - [1416\. Restore The Array](./topics/dp/restore-the-array.md)
+    - [1478\. Allocate Mailboxes](./topics/dp/allocate-mailboxes.md)
 - Area
     - [1024\. Video Stitching](./topics/dp/videoStitching.md)
     - [1326\. Minimum Number of Taps to Open to Water a Garden](./topics/dp/minimumNumberOfTapsToOpenToWaterAGarden.md)
@@ -188,6 +189,8 @@ My leetcode solutions for Javascript / Swift / Mysql
     - [146\. LRU Cache](./topics/array/lru-cache.md)
 - Subset
     - [1452\. People Whose List of Favorite Companies Is Not a Subset of Another List](./topics/array/people-whose-list-of-favorite-companies-is-not-a-subset-of-another-list.md)
+- Two Pointers
+    - [1477\. Find Two Non-overlapping Sub-arrays Each With Target Sum](./topics/array/find-two-non-overlapping-sub-arrays-each-with-target-sum.md)
 
 ### Stack/Queue
 - Monotonic(单调栈)
