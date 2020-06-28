@@ -183,6 +183,7 @@ My leetcode solutions for Javascript / Swift / Mysql
     - [1052\. Grumpy Bookstore Owner](./topics/array/grumpy-bookstore-owner.md)
     - [1425\. Constrained Subsequence Sum](./topics/dp/constrained-subsequence-sum.md)
     - [1438\. Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit](./topics/array/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit.md)
+    - [1498\. Number of Subsequences That Satisfy the Given Sum Condition](./topics/array/number-of-subsequences-that-satisfy-the-given-sum-condition.md)
 - Hash Table
     - [525\. Contiguous Array](./topics/array/contiguous-array.md)
 - Linked List
