@@ -35,6 +35,7 @@ My leetcode solutions for Javascript / Swift / Mysql
     - [1139\. Largest 1-Bordered Square](./topics/dp/largest-1-bordered-square.md)
     - [1074\. Number of Submatrices That Sum to Target](./topics/dp/number-of-submatrices-that-sum-to-target.md)
     - [1444\. Number of Ways of Cutting a Pizza](./topics/dp/number-of-ways-of-cutting-a-pizza.md)
+    - [1504\. Count Submatrices With All Ones](./topics/dp/count-submatrices-with-all-ones.md)
 - Tree
     - [96\. Unique Binary Search Trees](./topics/dp/uniqueBinarySearchTrees.md)
     - [1339\. Maximum Product of Splitted Binary Tree](./topics/dp/maximumProductOfSplittedBinaryTree.md)
