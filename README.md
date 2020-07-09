@@ -106,6 +106,7 @@ My leetcode solutions for Javascript / Swift / Mysql
     - [22\. Generate Parentheses](./topics/search/generateParentheses.md)
     - [51\. N-Queens](./topics/search/n-queens.md)
     - [52\. N-Queens II](./topics/search/n-queensII.md)
+    - [386\. Lexicographical Numbers](./topics/search/lexicographical-numbers.md)
     - [1372\. Longest ZigZag Path in a Binary Tree](./topics/search/longest-zigzag-path-in-a-binary-tree.md)
     - [1373\. Maximum Sum BST in Binary Tree](./topics/search/maximum-sum-bst-in-binary-tree.md)
     - [1377\. Frog Position After T Seconds](./topics/search/frog-position-after-t-seconds.md)
