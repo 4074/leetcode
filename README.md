@@ -131,6 +131,7 @@ My leetcode solutions for Javascript / Swift / Mysql
     - [784\. Letter Case Permutation](./topics/search/letterCasePermutation.md)
     - [1079\. Letter Tile Possibilities](./topics/search/letter-tile-possibilities.md)
 - Binary Search
+    - [441\. Arranging Coins](./topics/search/arranging-coins.md)
     - [1283\. Find the Smallest Divisor Given a Threshold](./topics/search/find-the-smallest-divisor-given-a-threshold.md)
     - [5455\. Minimum Number of Days to Make m Bouquets](./topics/search/minimum-number-of-days-to-make-m-bouquets.md)
 - Union Find
