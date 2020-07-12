@@ -121,6 +121,7 @@ My leetcode solutions for Javascript / Swift / Mysql
     - [1293\. Shortest Path in a Grid with Obstacles Elimination](./topics/search/shortestPathInAGridWithObstaclesElimination.md)
     - [1368\. Minimum Cost to Make at Least One Valid Path in a Grid](./topics/search/minimum-cost-to-make-at-least-one-valid-path-in-a-grid.md)
     - [1091\. Shortest Path in Binary Matrix](./topics/search/shortest-path-in-binary-matrix.md)
+    - [1514\. Path with Maximum Probability](./topics/search/path-with-maximum-probability.md)
 - Combination
     - [77\. Combinations](./topics/search/combinations.md)
     - [39\. Combination Sum](./topics/search/combinationSum.md)
@@ -173,6 +174,9 @@ My leetcode solutions for Javascript / Swift / Mysql
 - Common
     - [1131\. Maximum of Absolute Value Expression](./topics/math/maximum-of-absolute-value-expression.md)
     - [1093\. Statistics from a Large Sample](./topics/math/statistics-from-a-large-sample.md)
+- Combination Number
+    - [1512\. Number of Good Pairs](./topics/math/number-of-good-pairs.md)
+    - [1513\. Number of Substrings With Only 1s](./topics/math/number-of-substrings-with-only-1s.md)
 - Base k
     - [1073\. Adding Two Negabinary Numbers](./topics/math/adding-two-negabinary-numbers.md)
 
