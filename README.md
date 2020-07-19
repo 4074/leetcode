@@ -122,6 +122,7 @@ My leetcode solutions for Javascript / Swift / Mysql
     - [1368\. Minimum Cost to Make at Least One Valid Path in a Grid](./topics/search/minimum-cost-to-make-at-least-one-valid-path-in-a-grid.md)
     - [1091\. Shortest Path in Binary Matrix](./topics/search/shortest-path-in-binary-matrix.md)
     - [1514\. Path with Maximum Probability](./topics/search/path-with-maximum-probability.md)
+    - [1519\. Number of Nodes in the Sub-Tree With the Same Label](./topics/search/number-of-nodes-in-the-sub-tree-with-the-same-label.md)
 - Combination
     - [77\. Combinations](./topics/search/combinations.md)
     - [39\. Combination Sum](./topics/search/combinationSum.md)
