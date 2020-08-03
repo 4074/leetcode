@@ -79,6 +79,7 @@ My leetcode solutions for Javascript / Swift / Mysql
 - Mutiple Sub Problem Path
     - [1186\. Maximum Subarray Sum with One Deletion](./topics/dp/maximum-subarray-sum-with-one-deletion.md)
     - [1187\. Make Array Strictly Increasing](./topics/dp/make-array-strictly-increasing.md)
+    - [1537\. Get the Maximum Score](./topics/dp/get-the-maximum-score.md)
 - Multiple of Number
     - [1262\. Greatest Sum Divisible by Three](./topics/dp/greatest-sum-divisible-by-three.md)
     - [1363\. Largest Multiple of Three](./topics/dp/largest-multiple-of-three.md)
