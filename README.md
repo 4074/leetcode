@@ -24,6 +24,7 @@ My leetcode solutions for Javascript / Swift / Mysql
     - [1278\. Palindrome Partitioning III](./topics/dp/palindrome-partitioning-iii.md)
     - [1416\. Restore The Array](./topics/dp/restore-the-array.md)
     - [1478\. Allocate Mailboxes](./topics/dp/allocate-mailboxes.md)
+    - [1547\. Minimum Cost to Cut a Stick](./topics/dp/minimum-cost-to-cut-a-stick.md)
 - Area
     - [1024\. Video Stitching](./topics/dp/videoStitching.md)
     - [1326\. Minimum Number of Taps to Open to Water a Garden](./topics/dp/minimumNumberOfTapsToOpenToWaterAGarden.md)
