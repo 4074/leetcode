@@ -81,6 +81,7 @@ My leetcode solutions for Javascript / Swift / Mysql
     - [1186\. Maximum Subarray Sum with One Deletion](./topics/dp/maximum-subarray-sum-with-one-deletion.md)
     - [1187\. Make Array Strictly Increasing](./topics/dp/make-array-strictly-increasing.md)
     - [1537\. Get the Maximum Score](./topics/dp/get-the-maximum-score.md)
+    - [1553\. Minimum Number of Days to Eat N Oranges](./topics/dp/minimum-number-of-days-to-eat-n-oranges.md)
 - Multiple of Number
     - [1262\. Greatest Sum Divisible by Three](./topics/dp/greatest-sum-divisible-by-three.md)
     - [1363\. Largest Multiple of Three](./topics/dp/largest-multiple-of-three.md)
@@ -140,6 +141,7 @@ My leetcode solutions for Javascript / Swift / Mysql
     - [441\. Arranging Coins](./topics/search/arranging-coins.md)
     - [1283\. Find the Smallest Divisor Given a Threshold](./topics/search/find-the-smallest-divisor-given-a-threshold.md)
     - [5455\. Minimum Number of Days to Make m Bouquets](./topics/search/minimum-number-of-days-to-make-m-bouquets.md)
+    - [1552\. Magnetic Force Between Two Balls](./topics/search/magnetic-force-between-two-balls.md)
 - Union Find
     - [1202\. Smallest String With Swaps](./topics/search/smallest-string-with-swaps.md)
     - [1318\. Minimum Flips to Make a OR b Equal to c](./topics/search/minimumFlipsToMakeAOrBQqualToC.md)
