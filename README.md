@@ -74,6 +74,7 @@ My leetcode solutions for Javascript / Swift / Mysql
     - [1406\. Stone Game III](./topics/dp/stone-game-iii.md)
     - [1025\. Divisor Game](./topics/dp/divisorGame.md)
     - [1510\. Stone Game IV](./topics/dp/stone-game-iv.md)
+    - [1563\. Stone Game V](./topics/dp/stone-game-v.md)
 - Mutiple Sub Problems
     - [1301\. Number of Paths with Max Score](./topics/dp/numberOfPathsWithMaxScore.md)
     - [1125\. Smallest Sufficient Team](./topics/dp/smallest-sufficient-team.md)
