@@ -41,6 +41,7 @@ My leetcode solutions for Javascript / Swift / Mysql
     - [96\. Unique Binary Search Trees](./topics/dp/uniqueBinarySearchTrees.md)
     - [1339\. Maximum Product of Splitted Binary Tree](./topics/dp/maximumProductOfSplittedBinaryTree.md)
     - [1130\. Minimum Cost Tree From Leaf Values](./topics/dp/minimum-cost-tree-from-leaf-values.md)
+    - [1569\. Number of Ways to Reorder Array to Get Same BST](./topics/dp/number-of-ways-to-reorder-array-to-get-same-bst.md)
 - Palindromic
     - [516\. Longest Palindromic Subsequence](./topics/dp/longestPalindromicSubsequence.md)
     - [647\. Palindromic Substrings](./topics/dp/palindromicSubstrings.md)
