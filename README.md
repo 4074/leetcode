@@ -147,6 +147,7 @@ My leetcode solutions for Javascript / Swift / Mysql
 - Union Find
     - [1202\. Smallest String With Swaps](./topics/search/smallest-string-with-swaps.md)
     - [1318\. Minimum Flips to Make a OR b Equal to c](./topics/search/minimumFlipsToMakeAOrBQqualToC.md)
+    - [1584\. Min Cost to Connect All Points](./topics/search/min-cost-to-connect-all-points.md)
 - Topological Sort
     - [1203\. Sort Items by Groups Respecting Dependencies](./topics/search/sort-items-by-groups-respecting-dependencies.md)
 
