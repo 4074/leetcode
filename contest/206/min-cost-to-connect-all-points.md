@@ -106,3 +106,55 @@ var minCostConnectPoints = function(points) {
     return ans
 };
 ```
+
+Merge by rank
+```javascript
+/**
+ * @param {number[][]} points
+ * @return {number}
+ */
+var minCostConnectPoints = function(points) {
+    const n = points.length
+    const distances = []
+    for (let i = 0; i < n; i += 1) {
+        for (let j = i + 1; j < n; j += 1) {
+            if (i === j) continue            
+            const d = Math.abs(points[i][0] - points[j][0]) + Math.abs(points[i][1] - points[j][1])
+            distances.push([d, i, j])
+        }
+    }
+    
+    distances.sort((a, b) => a[0] - b[0])
+    
+    const parents = Array(n).fill().map((_, i) => i)
+    const ranks = Array(n).fill(0)
+    
+    function find(x) {
+        if (parents[x] !== x) parents[x] = find(parents[x])
+        return parents[x]
+    }
+    
+    function union(x, y) {
+        const px = find(x)
+        const py = find(y)
+        if (ranks[px] < ranks[py]) {
+            parents[px] = py
+        } else {
+            parents[py] = px
+            if (ranks[px] === ranks[py]) ranks[px] += 1
+        }
+    }
+    
+    let ans = 0
+    let count = 0
+    for (const [d, i, j] of distances) {
+        if (find(i) === find(j)) continue
+        union(i, j)
+        ans += d
+        count += 1
+        if (count === n - 1) break
+    }
+    
+    return ans
+};
+```
