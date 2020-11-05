@@ -222,3 +222,7 @@ My leetcode solutions for Javascript / Swift / Mysql
 ### Hash Table
 - Bit
     - [1072\. Flip Columns For Maximum Number of Equal Rows](./topics/table/flip-columns-for-maximum-number-of-equal-rows.md)
+
+### Heap
+- Min-Heap
+    - [1642\. Furthest Building You Can Reach](./topics/heap/furthest-building-you-can-reach.md)
