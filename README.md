@@ -123,6 +123,7 @@ My leetcode solutions for Javascript / Swift / Mysql
     - [1466\. Reorder Routes to Make All Paths Lead to the City Zero](./topics/search/reorder-routes-to-make-all-paths-lead-to-the-city-zero.md)
 - Breadth-first Search
     - [127\. Word Ladder](./topics/search/wordLadder.md)
+    - [310\. Minimum Height Trees](./topics/search/minimum-height-trees.md)
     - [1162\. As Far from Land as Possible](./topics/search/as-far-from-land-as-possible.md)
     - [1306\. Jump Game III](./topics/search/jumpGameIII.md)
     - [1345\. Jump Game IV](./topics/search/jumpGameIV.md)
