@@ -212,6 +212,7 @@ My leetcode solutions for Javascript / Swift / Mysql
     - [1452\. People Whose List of Favorite Companies Is Not a Subset of Another List](./topics/array/people-whose-list-of-favorite-companies-is-not-a-subset-of-another-list.md)
 - Two Pointers
     - [11\. Container With Most Water](./topics/array/container-with-most-water.md)
+    - [15\. 3Sum](./topics/array/3Sum.md)
     - [1477\. Find Two Non-overlapping Sub-arrays Each With Target Sum](./topics/array/find-two-non-overlapping-sub-arrays-each-with-target-sum.md)
 
 ### Stack/Queue
