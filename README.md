@@ -228,3 +228,9 @@ My leetcode solutions for Javascript / Swift / Mysql
 ### Heap
 - Min-Heap
     - [1642\. Furthest Building You Can Reach](./topics/heap/furthest-building-you-can-reach.md)
+
+### Linked-List
+- Common
+    - [19\. Remove Nth Node From End of List]()./topics/linked-list/remove-nth-node-from-end-of-list.md)
+    - [24\. Swap Nodes in Pairs](./topics/linked-list/swap-nodes-in-pairs.md)
+    - [25\. Reverse Nodes in k-Group](./topics/linked-list/reverse-nodes-in-k-group.md)
