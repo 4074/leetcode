@@ -2,10 +2,10 @@ class Heap {
   arr = []
   size = 0
 
-  constructor(arr, isMinHeap) {
+  constructor(arr, isMinHeap, compare) {
     this.arr = arr || []
     this.size = this.arr.length
-    this.compare = this.comparea(isMinHeap)
+    this.compare = compare || this.compare(isMinHeap)
 
     // Build the heap.
     // Call the heapify by bottom-up.
@@ -14,7 +14,7 @@ class Heap {
     }
   }
 
-  comparea(isMinHeap) {
+  compare(isMinHeap) {
     return (parent, child) => {
       if (parent === child) return -1
       return (parent > child ? -1 : 1) * (isMinHeap ? -1 : 1)
@@ -76,7 +76,6 @@ class Heap {
     this.swap(0, this.size - 1)
     this.size -= 1
     this.heapify(0)
-    console.log(this.arr)
     return this.arr.pop()
   }
 
