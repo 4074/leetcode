@@ -216,6 +216,8 @@ My leetcode solutions for Javascript / Swift / Mysql
     - [1477\. Find Two Non-overlapping Sub-arrays Each With Target Sum](./topics/array/find-two-non-overlapping-sub-arrays-each-with-target-sum.md)
 
 ### Stack/Queue
+- Stack
+    - [32\. Longest Valid Parentheses](./topics/stack/longest-valid-parentheses.md)
 - Monotonic(单调栈)
     - [1081\. Smallest Subsequence of Distinct Characters](./topics/stack/smallest-subsequence-of-distinct-characters.md)
     - [1425\. Constrained Subsequence Sum](./topics/dp/constrained-subsequence-sum.md)
