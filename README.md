@@ -29,6 +29,7 @@ My leetcode solutions for Javascript / Swift / Mysql
     - [1024\. Video Stitching](./topics/dp/videoStitching.md)
     - [1326\. Minimum Number of Taps to Open to Water a Garden](./topics/dp/minimumNumberOfTapsToOpenToWaterAGarden.md)
 - Matrix
+    - [10\. Regular Expression Matching](./topics/dp/regular-expression-matching.md)
     - [44\. Wildcard Matching](./topics/dp/wildcard-matching.md)
     - [221\. Maximal Square](./topics/dp/maximal-square.md)
     - [1314\. Matrix Block Sum](./topics/dp/matrixBlockSum.md)
@@ -176,6 +177,7 @@ My leetcode solutions for Javascript / Swift / Mysql
     - [1371\. Find the Longest Substring Containing Vowels in Even Counts](./topics/string/find-the-longest-substring-containing-vowels-in-even-counts.md)
 
 - Match
+    - [10\. Regular Expression Matching](./topics/dp/regular-expression-matching.md)
     - [44\. Wildcard Matching](./topics/dp/wildcard-matching.md)
     - [1316\. Distinct Echo Substrings](./topics/string/distinctEchoSubstrings.md)
     - [1392\. Longest Happy Prefix](./topics/string/longest-happy-prefix.md)
