@@ -101,6 +101,7 @@ My leetcode solutions for Javascript / Swift / Mysql
     - [1049\. Last Stone Weight II](./topics/dp/last-stone-weight-ii.md)
 ### Greedy
 - Greedy
+    - [45\. Jump Game II](./topics/greedy/jump-game-ii.md)
     - [1353\. Maximum Number of Events That Can Be Attended](./topics/greedy/maximum-number-of-events-that-can-be-attended.md)
     - [1326\. Minimum Number of Taps to Open to Water a Garden](./topics/dp/minimumNumberOfTapsToOpenToWaterAGarden.md)
     - [1402\. Reducing Dishes](./topics/greedy/reducing-dishes.md)
