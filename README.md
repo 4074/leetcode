@@ -31,6 +31,7 @@ My leetcode solutions for Javascript / Swift / Mysql
 - Matrix
     - [10\. Regular Expression Matching](./topics/dp/regular-expression-matching.md)
     - [44\. Wildcard Matching](./topics/dp/wildcard-matching.md)
+    - [63\. Unique Paths II](./topics/dp/unique-paths-ii.md)
     - [221\. Maximal Square](./topics/dp/maximal-square.md)
     - [1314\. Matrix Block Sum](./topics/dp/matrixBlockSum.md)
     - [1293\. Shortest Path in a Grid with Obstacles Elimination](./topics/search/shortestPathInAGridWithObstaclesElimination.md)
