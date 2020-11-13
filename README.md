@@ -229,6 +229,7 @@ My leetcode solutions for Javascript / Swift / Mysql
 - Stack
     - [32\. Longest Valid Parentheses](./topics/stack/longest-valid-parentheses.md)
 - Monotonic(单调栈)
+    - [84\. Largest Rectangle in Histogram](./topics/stack/largest-rectangle-in-histogram.md)
     - [1081\. Smallest Subsequence of Distinct Characters](./topics/stack/smallest-subsequence-of-distinct-characters.md)
     - [1425\. Constrained Subsequence Sum](./topics/dp/constrained-subsequence-sum.md)
     - [1438\. Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit](./topics/array/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit.md)
