@@ -149,6 +149,9 @@ My leetcode solutions for Javascript / Swift / Mysql
     - [47\. Permutations II](./topics/search/permutationsII.md)
     - [784\. Letter Case Permutation](./topics/search/letterCasePermutation.md)
     - [1079\. Letter Tile Possibilities](./topics/search/letter-tile-possibilities.md)
+- Subset
+    - [78\. Subsets](./topics/search/subsets.md)
+    - [90\. Subsets II](./topics/search/subsets-ii.md)
 - Binary Search
     - [81\. Search in Rotated Sorted Array II](./topics/search/search-in-rotated-sorted-array-ii.md)
     - [441\. Arranging Coins](./topics/search/arranging-coins.md)
