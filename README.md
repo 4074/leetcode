@@ -18,6 +18,7 @@ My leetcode solutions for Javascript / Swift / Mysql
     - [1425\. Constrained Subsequence Sum](./topics/dp/constrained-subsequence-sum.md)
     - [1458\. Max Dot Product of Two Subsequences](./topics/dp/max-dot-product-of-two-subsequences.md)
 - Group
+    - [87\. Scramble String](./topics/dp/scramble-string.md)
     - [1105\. Filling Bookcase Shelves](./topics/dp/fillingBookcaseShelves.md)
     - [813\. Largest Sum of Averages](./topics/dp/largestSumOfAverages.md)
     - [1335\. Minimum Difficulty of a Job Schedule](./topics/dp/minimumDifficultyOfAJobSchedule.md)
@@ -182,6 +183,7 @@ My leetcode solutions for Javascript / Swift / Mysql
     - [10\. Regular Expression Matching](./topics/dp/regular-expression-matching.md)
     - [44\. Wildcard Matching](./topics/dp/wildcard-matching.md)
     - [72\. Edit Distance](./topics/dp/edit-distance.md)
+    - [87\. Scramble String](./topics/dp/scramble-string.md)
     - [1316\. Distinct Echo Substrings](./topics/string/distinctEchoSubstrings.md)
     - [1392\. Longest Happy Prefix](./topics/string/longest-happy-prefix.md)
 
