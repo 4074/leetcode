@@ -228,6 +228,7 @@ My leetcode solutions for Javascript / Swift / Mysql
 - Two Pointers
     - [11\. Container With Most Water](./topics/array/container-with-most-water.md)
     - [15\. 3Sum](./topics/array/3Sum.md)
+    - [845\. Longest Mountain in Array](./topics/array/longest-mountain-in-array.md)
     - [1477\. Find Two Non-overlapping Sub-arrays Each With Target Sum](./topics/array/find-two-non-overlapping-sub-arrays-each-with-target-sum.md)
 
 ### Stack/Queue
