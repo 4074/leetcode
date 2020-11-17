@@ -200,6 +200,7 @@ My leetcode solutions for Javascript / Swift / Mysql
 
 ### Math
 - Common
+    - [458\. Poor Pigs](./topics/math/poor-pigs.md)
     - [1131\. Maximum of Absolute Value Expression](./topics/math/maximum-of-absolute-value-expression.md)
     - [1093\. Statistics from a Large Sample](./topics/math/statistics-from-a-large-sample.md)
 - Combination Number
