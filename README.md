@@ -42,6 +42,7 @@ My leetcode solutions for Javascript / Swift / Mysql
     - [1444\. Number of Ways of Cutting a Pizza](./topics/dp/number-of-ways-of-cutting-a-pizza.md)
     - [1504\. Count Submatrices With All Ones](./topics/dp/count-submatrices-with-all-ones.md)
 - Tree
+    - [95\. Unique Binary Search Trees II](./topics/dp/unique-binary-search-trees-ii.md)
     - [96\. Unique Binary Search Trees](./topics/dp/uniqueBinarySearchTrees.md)
     - [1339\. Maximum Product of Splitted Binary Tree](./topics/dp/maximumProductOfSplittedBinaryTree.md)
     - [1130\. Minimum Cost Tree From Leaf Values](./topics/dp/minimum-cost-tree-from-leaf-values.md)
