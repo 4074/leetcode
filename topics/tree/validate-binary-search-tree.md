@@ -66,3 +66,32 @@ var isValidBST = function(root) {
     return dfs(root, -Infinity, Infinity)
 };
 ```
+
+Inorder Travel With Pre (带前驱的中序遍历)
+```javascript
+/**
+ * Definition for a binary tree node.
+ * function TreeNode(val, left, right) {
+ *     this.val = (val===undefined ? 0 : val)
+ *     this.left = (left===undefined ? null : left)
+ *     this.right = (right===undefined ? null : right)
+ * }
+ */
+/**
+ * @param {TreeNode} root
+ * @return {boolean}
+ */
+var isValidBST = function(root) {
+    let pre = null
+    function dfs(node) {
+        if (!node) return true;
+        if (!dfs(node.left)) return false
+        if (pre && node.val <= pre.val) {
+            return false
+        }
+        pre = node
+        return dfs(node.right)
+    }
+    return dfs(root)
+};
+```
