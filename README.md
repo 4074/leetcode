@@ -174,6 +174,7 @@ My leetcode solutions for Javascript / Swift / Mysql
     - [1373\. Maximum Sum BST in Binary Tree](./topics/search/maximum-sum-bst-in-binary-tree.md)
 - Binary Search Tree
     - [98\. Validate Binary Search Tree](./topics/tree/validate-binary-search-tree.md)
+    - [99\. Recover Binary Search Tree](./topics/tree/recover-binary-search-tree.md)
     - [1305\. All Elements in Two Binary Search Trees](./topics/tree/allElementsInTwoBinarySearchTrees.md)
     - [1172\. Dinner Plate Stacks](./topics/tree/dinner-plate-stacks.md)
 
