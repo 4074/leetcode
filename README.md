@@ -112,6 +112,7 @@ My leetcode solutions for Javascript / Swift / Mysql
     - [1326\. Minimum Number of Taps to Open to Water a Garden](./topics/dp/minimumNumberOfTapsToOpenToWaterAGarden.md)
     - [1402\. Reducing Dishes](./topics/greedy/reducing-dishes.md)
     - [678\. Valid Parenthesis String](./topics/dp/valid-parenthesis-string.md)
+    - [1665\. Minimum Initial Energy to Finish Tasks](./topics/greedy/minimum-initial-energy-to-finish-tasks.md)
 
 ### Search
 
