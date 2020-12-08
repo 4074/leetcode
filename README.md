@@ -44,6 +44,7 @@ My leetcode solutions for Javascript / Swift / Mysql
 - Tree
     - [95\. Unique Binary Search Trees II](./topics/dp/unique-binary-search-trees-ii.md)
     - [96\. Unique Binary Search Trees](./topics/dp/uniqueBinarySearchTrees.md)
+    - [337\. House Robber III](./topics/dp/house-robber-iii.md)
     - [1339\. Maximum Product of Splitted Binary Tree](./topics/dp/maximumProductOfSplittedBinaryTree.md)
     - [1130\. Minimum Cost Tree From Leaf Values](./topics/dp/minimum-cost-tree-from-leaf-values.md)
     - [1569\. Number of Ways to Reorder Array to Get Same BST](./topics/dp/number-of-ways-to-reorder-array-to-get-same-bst.md)
@@ -112,6 +113,7 @@ My leetcode solutions for Javascript / Swift / Mysql
     - [1326\. Minimum Number of Taps to Open to Water a Garden](./topics/dp/minimumNumberOfTapsToOpenToWaterAGarden.md)
     - [1402\. Reducing Dishes](./topics/greedy/reducing-dishes.md)
     - [678\. Valid Parenthesis String](./topics/dp/valid-parenthesis-string.md)
+    - [1665\. Minimum Initial Energy to Finish Tasks](./topics/greedy/minimum-initial-energy-to-finish-tasks.md)
 
 ### Search
 
