@@ -26,6 +26,7 @@ My leetcode solutions for Javascript / Swift / Mysql
     - [1416\. Restore The Array](./topics/dp/restore-the-array.md)
     - [1478\. Allocate Mailboxes](./topics/dp/allocate-mailboxes.md)
     - [1547\. Minimum Cost to Cut a Stick](./topics/dp/minimum-cost-to-cut-a-stick.md)
+    - [312\. Burst Balloons](./topics/dp/burst-balloons.md)
 - Area
     - [1024\. Video Stitching](./topics/dp/videoStitching.md)
     - [1326\. Minimum Number of Taps to Open to Water a Garden](./topics/dp/minimumNumberOfTapsToOpenToWaterAGarden.md)
@@ -99,12 +100,11 @@ My leetcode solutions for Javascript / Swift / Mysql
     - [1359\. Count All Valid Pickup and Delivery Options](./topics/dp/count-all-valid-pickup-and-delivery-options.md)
 - Recycle
     - [1388\. Pizza With 3n Slices](./topics/dp/pizza-with-3n-slices.md)
-- Knapsack
-    - [1449\. Form Largest Integer With Digits That Add up to Target](./topics/dp/form-largest-integer-with-digits-that-add-up-to-target.md)
 - Change direction
     - [1434\. Number of Ways to Wear Different Hats to Each Other](./topics/dp/number-of-ways-to-wear-different-hats-to-each-other.md)
 - Knapsack
     - [1049\. Last Stone Weight II](./topics/dp/last-stone-weight-ii.md)
+    - [1449\. Form Largest Integer With Digits That Add up to Target](./topics/dp/form-largest-integer-with-digits-that-add-up-to-target.md)
 
 ### Greedy
 - Greedy
