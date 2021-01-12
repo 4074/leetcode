@@ -10,6 +10,7 @@ My leetcode solutions for Javascript / Swift / Mysql
     - [718\. Maximum Length of Repeated Subarray](./topics/dp/maximumLengthOfRepeatedSubarray.md)
     - [1438\. Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit](./topics/array/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit.md)
 - Subsequence
+    - [300\. Longest Increasing Subsequence](./topics/dp/longest-increasing-subsequence.md) 
     - [1027\. Longest Arithmetic Sequence](./topics/dp/longestArithmeticSequence.md)
     - [1143\. Longest Common Subsequence](./topics/dp/longestCommonSubsequence.md)
     - [516\. Longest Palindromic Subsequence](./topics/dp/longestPalindromicSubsequence.md)
@@ -110,6 +111,7 @@ My leetcode solutions for Javascript / Swift / Mysql
 ### Greedy
 - Greedy
     - [45\. Jump Game II](./topics/greedy/jump-game-ii.md)
+    - [300\. Longest Increasing Subsequence](./topics/dp/longest-increasing-subsequence.md) 
     - [1353\. Maximum Number of Events That Can Be Attended](./topics/greedy/maximum-number-of-events-that-can-be-attended.md)
     - [1326\. Minimum Number of Taps to Open to Water a Garden](./topics/dp/minimumNumberOfTapsToOpenToWaterAGarden.md)
     - [1402\. Reducing Dishes](./topics/greedy/reducing-dishes.md)
