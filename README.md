@@ -117,6 +117,7 @@ My leetcode solutions for Javascript / Swift / Mysql
     - [1402\. Reducing Dishes](./topics/greedy/reducing-dishes.md)
     - [678\. Valid Parenthesis String](./topics/dp/valid-parenthesis-string.md)
     - [1665\. Minimum Initial Energy to Finish Tasks](./topics/greedy/minimum-initial-energy-to-finish-tasks.md)
+    - [1713\. Minimum Operations to Make a Subsequence](./topics/greedy/minimum-operations-to-make-a-subsequence.md)
 
 ### Search
 
@@ -240,6 +241,7 @@ My leetcode solutions for Javascript / Swift / Mysql
     - [15\. 3Sum](./topics/array/3Sum.md)
     - [845\. Longest Mountain in Array](./topics/array/longest-mountain-in-array.md)
     - [1477\. Find Two Non-overlapping Sub-arrays Each With Target Sum](./topics/array/find-two-non-overlapping-sub-arrays-each-with-target-sum.md)
+    - [1712\. Ways to Split Array Into Three Subarrays](./topics/array/ways-to-split-array-into-three-subarrays.md)
 
 ### Stack/Queue
 - Stack
