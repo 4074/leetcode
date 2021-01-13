@@ -111,7 +111,8 @@ My leetcode solutions for Javascript / Swift / Mysql
 ### Greedy
 - Greedy
     - [45\. Jump Game II](./topics/greedy/jump-game-ii.md)
-    - [300\. Longest Increasing Subsequence](./topics/dp/longest-increasing-subsequence.md) 
+    - [300\. Longest Increasing Subsequence](./topics/dp/longest-increasing-subsequence.md)
+    - [881\. Boats to Save People](./topics/greedy/boats-to-save-people.md)
     - [1353\. Maximum Number of Events That Can Be Attended](./topics/greedy/maximum-number-of-events-that-can-be-attended.md)
     - [1326\. Minimum Number of Taps to Open to Water a Garden](./topics/dp/minimumNumberOfTapsToOpenToWaterAGarden.md)
     - [1402\. Reducing Dishes](./topics/greedy/reducing-dishes.md)
