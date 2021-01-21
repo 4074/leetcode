@@ -255,6 +255,7 @@ My leetcode solutions for Javascript / Swift / Mysql
     - [1081\. Smallest Subsequence of Distinct Characters](./topics/stack/smallest-subsequence-of-distinct-characters.md)
     - [1425\. Constrained Subsequence Sum](./topics/dp/constrained-subsequence-sum.md)
     - [1438\. Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit](./topics/array/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit.md)
+    - [1673\. Find the Most Competitive Subsequence](./topics/stack/find-the-most-competitive-subsequence.md)
 
 ### Hash Table
 - Bit
