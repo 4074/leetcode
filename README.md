@@ -10,6 +10,7 @@ My leetcode solutions for Javascript / Swift / Mysql
     - [718\. Maximum Length of Repeated Subarray](./topics/dp/maximumLengthOfRepeatedSubarray.md)
     - [1438\. Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit](./topics/array/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit.md)
 - Subsequence
+    - [300\. Longest Increasing Subsequence](./topics/dp/longest-increasing-subsequence.md) 
     - [1027\. Longest Arithmetic Sequence](./topics/dp/longestArithmeticSequence.md)
     - [1143\. Longest Common Subsequence](./topics/dp/longestCommonSubsequence.md)
     - [516\. Longest Palindromic Subsequence](./topics/dp/longestPalindromicSubsequence.md)
@@ -26,6 +27,7 @@ My leetcode solutions for Javascript / Swift / Mysql
     - [1416\. Restore The Array](./topics/dp/restore-the-array.md)
     - [1478\. Allocate Mailboxes](./topics/dp/allocate-mailboxes.md)
     - [1547\. Minimum Cost to Cut a Stick](./topics/dp/minimum-cost-to-cut-a-stick.md)
+    - [312\. Burst Balloons](./topics/dp/burst-balloons.md)
 - Area
     - [1024\. Video Stitching](./topics/dp/videoStitching.md)
     - [1326\. Minimum Number of Taps to Open to Water a Garden](./topics/dp/minimumNumberOfTapsToOpenToWaterAGarden.md)
@@ -49,6 +51,7 @@ My leetcode solutions for Javascript / Swift / Mysql
     - [1130\. Minimum Cost Tree From Leaf Values](./topics/dp/minimum-cost-tree-from-leaf-values.md)
     - [1569\. Number of Ways to Reorder Array to Get Same BST](./topics/dp/number-of-ways-to-reorder-array-to-get-same-bst.md)
 - Palindromic
+    - [131\. Palindrome Partitioning](./topics/dp/palindrome-partitioning.md)
     - [516\. Longest Palindromic Subsequence](./topics/dp/longestPalindromicSubsequence.md)
     - [647\. Palindromic Substrings](./topics/dp/palindromicSubstrings.md)
     - [1278\. Palindrome Partitioning III](./topics/dp/palindrome-partitioning-iii.md)
@@ -99,21 +102,23 @@ My leetcode solutions for Javascript / Swift / Mysql
     - [1359\. Count All Valid Pickup and Delivery Options](./topics/dp/count-all-valid-pickup-and-delivery-options.md)
 - Recycle
     - [1388\. Pizza With 3n Slices](./topics/dp/pizza-with-3n-slices.md)
-- Knapsack
-    - [1449\. Form Largest Integer With Digits That Add up to Target](./topics/dp/form-largest-integer-with-digits-that-add-up-to-target.md)
 - Change direction
     - [1434\. Number of Ways to Wear Different Hats to Each Other](./topics/dp/number-of-ways-to-wear-different-hats-to-each-other.md)
 - Knapsack
     - [1049\. Last Stone Weight II](./topics/dp/last-stone-weight-ii.md)
+    - [1449\. Form Largest Integer With Digits That Add up to Target](./topics/dp/form-largest-integer-with-digits-that-add-up-to-target.md)
 
 ### Greedy
 - Greedy
     - [45\. Jump Game II](./topics/greedy/jump-game-ii.md)
+    - [300\. Longest Increasing Subsequence](./topics/dp/longest-increasing-subsequence.md)
+    - [881\. Boats to Save People](./topics/greedy/boats-to-save-people.md)
     - [1353\. Maximum Number of Events That Can Be Attended](./topics/greedy/maximum-number-of-events-that-can-be-attended.md)
     - [1326\. Minimum Number of Taps to Open to Water a Garden](./topics/dp/minimumNumberOfTapsToOpenToWaterAGarden.md)
     - [1402\. Reducing Dishes](./topics/greedy/reducing-dishes.md)
     - [678\. Valid Parenthesis String](./topics/dp/valid-parenthesis-string.md)
     - [1665\. Minimum Initial Energy to Finish Tasks](./topics/greedy/minimum-initial-energy-to-finish-tasks.md)
+    - [1713\. Minimum Operations to Make a Subsequence](./topics/greedy/minimum-operations-to-make-a-subsequence.md)
 
 ### Search
 
@@ -124,6 +129,8 @@ My leetcode solutions for Javascript / Swift / Mysql
     - [22\. Generate Parentheses](./topics/search/generateParentheses.md)
     - [51\. N-Queens](./topics/search/n-queens.md)
     - [52\. N-Queens II](./topics/search/n-queensII.md)
+    - [105\. Construct Binary Tree from Preorder and Inorder Traversal](./topics/search/construct-binary-tree-from-preorder-and-inorder-traversal.md)
+    - [106\. Construct Binary Tree from Inorder and Postorder Traversal](./topics/search/construct-binary-tree-from-inorder-and-postorder-traversal.md)
     - [386\. Lexicographical Numbers](./topics/search/lexicographical-numbers.md)
     - [1372\. Longest ZigZag Path in a Binary Tree](./topics/search/longest-zigzag-path-in-a-binary-tree.md)
     - [1373\. Maximum Sum BST in Binary Tree](./topics/search/maximum-sum-bst-in-binary-tree.md)
@@ -237,6 +244,7 @@ My leetcode solutions for Javascript / Swift / Mysql
     - [15\. 3Sum](./topics/array/3Sum.md)
     - [845\. Longest Mountain in Array](./topics/array/longest-mountain-in-array.md)
     - [1477\. Find Two Non-overlapping Sub-arrays Each With Target Sum](./topics/array/find-two-non-overlapping-sub-arrays-each-with-target-sum.md)
+    - [1712\. Ways to Split Array Into Three Subarrays](./topics/array/ways-to-split-array-into-three-subarrays.md)
 
 ### Stack/Queue
 - Stack
@@ -247,6 +255,7 @@ My leetcode solutions for Javascript / Swift / Mysql
     - [1081\. Smallest Subsequence of Distinct Characters](./topics/stack/smallest-subsequence-of-distinct-characters.md)
     - [1425\. Constrained Subsequence Sum](./topics/dp/constrained-subsequence-sum.md)
     - [1438\. Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit](./topics/array/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit.md)
+    - [1673\. Find the Most Competitive Subsequence](./topics/stack/find-the-most-competitive-subsequence.md)
 
 ### Hash Table
 - Bit
