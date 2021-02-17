@@ -131,6 +131,7 @@ My leetcode solutions for Javascript / Swift / Mysql
     - [52\. N-Queens II](./topics/search/n-queensII.md)
     - [105\. Construct Binary Tree from Preorder and Inorder Traversal](./topics/search/construct-binary-tree-from-preorder-and-inorder-traversal.md)
     - [106\. Construct Binary Tree from Inorder and Postorder Traversal](./topics/search/construct-binary-tree-from-inorder-and-postorder-traversal.md)
+    - [124\. Binary Tree Maximum Path Sum](./topics/search/binary-tree-maximum-path-sum.md)
     - [386\. Lexicographical Numbers](./topics/search/lexicographical-numbers.md)
     - [1372\. Longest ZigZag Path in a Binary Tree](./topics/search/longest-zigzag-path-in-a-binary-tree.md)
     - [1373\. Maximum Sum BST in Binary Tree](./topics/search/maximum-sum-bst-in-binary-tree.md)
