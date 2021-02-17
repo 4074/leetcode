@@ -259,6 +259,8 @@ My leetcode solutions for Javascript / Swift / Mysql
     - [1673\. Find the Most Competitive Subsequence](./topics/stack/find-the-most-competitive-subsequence.md)
 
 ### Hash Table
+- Set
+    - [128\. Longest Consecutive Sequence](./topics/table/longest-consecutive-sequence.md)
 - Bit
     - [1072\. Flip Columns For Maximum Number of Equal Rows](./topics/table/flip-columns-for-maximum-number-of-equal-rows.md)
 
