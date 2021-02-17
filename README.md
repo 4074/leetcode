@@ -52,6 +52,7 @@ My leetcode solutions for Javascript / Swift / Mysql
     - [1569\. Number of Ways to Reorder Array to Get Same BST](./topics/dp/number-of-ways-to-reorder-array-to-get-same-bst.md)
 - Palindromic
     - [131\. Palindrome Partitioning](./topics/dp/palindrome-partitioning.md)
+    - [132\. Palindrome Partitioning II](./topics/dp/palindrome-partitioning-ii.md)
     - [516\. Longest Palindromic Subsequence](./topics/dp/longestPalindromicSubsequence.md)
     - [647\. Palindromic Substrings](./topics/dp/palindromicSubstrings.md)
     - [1278\. Palindrome Partitioning III](./topics/dp/palindrome-partitioning-iii.md)
