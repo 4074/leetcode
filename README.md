@@ -224,6 +224,9 @@ My leetcode solutions for Javascript / Swift / Mysql
     - [1513\. Number of Substrings With Only 1s](./topics/math/number-of-substrings-with-only-1s.md)
 - Base k
     - [1073\. Adding Two Negabinary Numbers](./topics/math/adding-two-negabinary-numbers.md)
+- Bit
+    - [136\. Single Number](./topics/math/single-number.md)
+    - [137\. Single Number II](./topics/math/single-number-ii.md)
 
 ### Array
 - Common
