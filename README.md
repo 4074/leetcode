@@ -282,6 +282,9 @@ My leetcode solutions for Javascript / Swift / Mysql
     - [25\. Reverse Nodes in k-Group](./topics/linked-list/reverse-nodes-in-k-group.md)
     - [92\. Reverse Linked List II](./topics/linked-list/reverse-linked-list-ii.md)
     - [142\. Linked List Cycle II](./topics/linked-list/linked-list-cycle-ii.md)
+    - [143\. Reorder List](./topics/linked-list/reorder-list.md)
+    - [148\. Sort List](./topics/linked-list/sort-list.md)
+    - [206\. Reverse Linked List](./topics/linked-list/reverse-linked-list.md)
     - [445\. Add Two Numbers II](./topics/linked-list/add-two-numbers-ii.md)
 
 ### Rule
