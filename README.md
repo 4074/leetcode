@@ -171,6 +171,7 @@ My leetcode solutions for Javascript / Swift / Mysql
 - Binary Search
     - [81\. Search in Rotated Sorted Array II](./topics/search/search-in-rotated-sorted-array-ii.md)
     - [153\. Find Minimum in Rotated Sorted Array](./topics/search/find-minimum-in-rotated-sorted-array.md)
+    - [154\. Find Minimum in Rotated Sorted Array II](./topics/search/find-minimum-in-rotated-sorted-array-ii.md)
     - [441\. Arranging Coins](./topics/search/arranging-coins.md)
     - [1283\. Find the Smallest Divisor Given a Threshold](./topics/search/find-the-smallest-divisor-given-a-threshold.md)
     - [5455\. Minimum Number of Days to Make m Bouquets](./topics/search/minimum-number-of-days-to-make-m-bouquets.md)
