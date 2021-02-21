@@ -59,6 +59,7 @@ My leetcode solutions for Javascript / Swift / Mysql
     - [647\. Palindromic Substrings](./topics/dp/palindromicSubstrings.md)
     - [1278\. Palindrome Partitioning III](./topics/dp/palindrome-partitioning-iii.md)
     - [1147\. Longest Chunked Palindrome Decomposition](./topics/dp/longest-chunked-palindrome-decomposition.md)
+    - [1771\. Maximize Palindrome Length From Subsequences](./topics/dp/maximize-palindrome-length-from-subsequences.md)
 - Buy And Sell Stock
     - [121\. Best Time to Buy and Sell Stock](./topics/dp/bestTimeToBuyAndSellStock.md)
     - [122\. Best Time to Buy and Sell Stock II](./topics/dp/bestTimeToBuyAndSellStockII.md)
