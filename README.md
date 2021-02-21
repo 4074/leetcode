@@ -223,6 +223,7 @@ My leetcode solutions for Javascript / Swift / Mysql
 - Common
     - [149\. Max Points on a Line](./topics/math/max-points-on-a-line.md)
     - [458\. Poor Pigs](./topics/math/poor-pigs.md)
+    - [991\. Broken Calculator](./topics/math/broken-calculator.md)
     - [1131\. Maximum of Absolute Value Expression](./topics/math/maximum-of-absolute-value-expression.md)
     - [1093\. Statistics from a Large Sample](./topics/math/statistics-from-a-large-sample.md)
 - Combination Number
