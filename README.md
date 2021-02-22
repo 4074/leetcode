@@ -258,7 +258,8 @@ My leetcode solutions for Javascript / Swift / Mysql
     - [845\. Longest Mountain in Array](./topics/array/longest-mountain-in-array.md)
     - [1477\. Find Two Non-overlapping Sub-arrays Each With Target Sum](./topics/array/find-two-non-overlapping-sub-arrays-each-with-target-sum.md)
     - [1712\. Ways to Split Array Into Three Subarrays](./topics/array/ways-to-split-array-into-three-subarrays.md)
-
+- Sort
+    - [164\. Maximum Gap](./topics/array/maximum-gap.md)
 ### Stack/Queue
 - Stack
     - [32\. Longest Valid Parentheses](./topics/stack/longest-valid-parentheses.md)
