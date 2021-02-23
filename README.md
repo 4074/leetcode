@@ -224,6 +224,7 @@ My leetcode solutions for Javascript / Swift / Mysql
     - [149\. Max Points on a Line](./topics/math/max-points-on-a-line.md)
     - [168\. Excel Sheet Column Title](./topics/math/excel-sheet-column-title.md)
     - [166\. Fraction to Recurring Decimal](./topics/math/fraction-to-recurring-decimal.md)
+    - [172\. Factorial Trailing Zeroes](./topics/math/factorial-trailing-zeroes.md)
     - [458\. Poor Pigs](./topics/math/poor-pigs.md)
     - [991\. Broken Calculator](./topics/math/broken-calculator.md)
     - [1131\. Maximum of Absolute Value Expression](./topics/math/maximum-of-absolute-value-expression.md)
