@@ -182,6 +182,7 @@ My leetcode solutions for Javascript / Swift / Mysql
     - [1318\. Minimum Flips to Make a OR b Equal to c](./topics/search/minimumFlipsToMakeAOrBQqualToC.md)
     - [1584\. Min Cost to Connect All Points](./topics/search/min-cost-to-connect-all-points.md)
 - Topological Sort
+    - [207\. Course Schedule](./topics/search/course-schedule.md)
     - [1203\. Sort Items by Groups Respecting Dependencies](./topics/search/sort-items-by-groups-respecting-dependencies.md)
 
 ### Tree
@@ -224,6 +225,7 @@ My leetcode solutions for Javascript / Swift / Mysql
     - [149\. Max Points on a Line](./topics/math/max-points-on-a-line.md)
     - [168\. Excel Sheet Column Title](./topics/math/excel-sheet-column-title.md)
     - [166\. Fraction to Recurring Decimal](./topics/math/fraction-to-recurring-decimal.md)
+    - [172\. Factorial Trailing Zeroes](./topics/math/factorial-trailing-zeroes.md)
     - [204\. Count Primes](./topics/math/count-primes.md)
     - [458\. Poor Pigs](./topics/math/poor-pigs.md)
     - [991\. Broken Calculator](./topics/math/broken-calculator.md)
@@ -240,6 +242,7 @@ My leetcode solutions for Javascript / Swift / Mysql
 
 ### Array
 - Common
+    - [240\. Search a 2D Matrix II](./topics/array/search-a-2d-matrix-ii.md)
     - [1124\. Longest Well-Performing Interval](./topics/array/longest-well-performing-interval.md)
     - [1053\. Previous Permutation With One Swap](./topics/array/previous-permutation-with-one-swap.md)
 - Rearrange
