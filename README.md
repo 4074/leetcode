@@ -196,6 +196,8 @@ My leetcode solutions for Javascript / Swift / Mysql
     - [99\. Recover Binary Search Tree](./topics/tree/recover-binary-search-tree.md)
     - [1305\. All Elements in Two Binary Search Trees](./topics/tree/allElementsInTwoBinarySearchTrees.md)
     - [1172\. Dinner Plate Stacks](./topics/tree/dinner-plate-stacks.md)
+- Binary Complete Tree
+    - [222\. Count Complete Tree Nodes](./topics/tree/count-complete-tree-nodes.md)
 
 ### String
 
