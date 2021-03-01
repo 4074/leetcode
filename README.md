@@ -274,6 +274,7 @@ My leetcode solutions for Javascript / Swift / Mysql
     - [1712\. Ways to Split Array Into Three Subarrays](./topics/array/ways-to-split-array-into-three-subarrays.md)
 - Sort
     - [164\. Maximum Gap](./topics/array/maximum-gap.md)
+    - [215\. Kth Largest Element in an Array](./topics/array/kth-largest-element-in-an-array.md)
 ### Stack/Queue
 - Stack
     - [32\. Longest Valid Parentheses](./topics/stack/longest-valid-parentheses.md)
