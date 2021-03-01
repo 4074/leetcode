@@ -197,6 +197,8 @@ My leetcode solutions for Javascript / Swift / Mysql
     - [99\. Recover Binary Search Tree](./topics/tree/recover-binary-search-tree.md)
     - [1305\. All Elements in Two Binary Search Trees](./topics/tree/allElementsInTwoBinarySearchTrees.md)
     - [1172\. Dinner Plate Stacks](./topics/tree/dinner-plate-stacks.md)
+- Binary Complete Tree
+    - [222\. Count Complete Tree Nodes](./topics/tree/count-complete-tree-nodes.md)
 
 ### String
 
@@ -241,6 +243,8 @@ My leetcode solutions for Javascript / Swift / Mysql
 - Bit
     - [136\. Single Number](./topics/math/single-number.md)
     - [137\. Single Number II](./topics/math/single-number-ii.md)
+- Geometry
+    - [223\. Rectangle Area](./topics/math/rectangle-area.md)
 
 ### Array
 - Common
