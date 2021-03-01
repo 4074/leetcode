@@ -231,6 +231,7 @@ My leetcode solutions for Javascript / Swift / Mysql
     - [166\. Fraction to Recurring Decimal](./topics/math/fraction-to-recurring-decimal.md)
     - [172\. Factorial Trailing Zeroes](./topics/math/factorial-trailing-zeroes.md)
     - [204\. Count Primes](./topics/math/count-primes.md)
+    - [224\. Basic Calculator](./topics/math/basic-calculator.md)
     - [458\. Poor Pigs](./topics/math/poor-pigs.md)
     - [991\. Broken Calculator](./topics/math/broken-calculator.md)
     - [1131\. Maximum of Absolute Value Expression](./topics/math/maximum-of-absolute-value-expression.md)
