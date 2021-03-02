@@ -249,6 +249,7 @@ My leetcode solutions for Javascript / Swift / Mysql
 
 ### Array
 - Common
+    - [229\. Majority Element II](./topics/array/basic-calculator-ii.md)
     - [240\. Search a 2D Matrix II](./topics/array/search-a-2d-matrix-ii.md)
     - [1124\. Longest Well-Performing Interval](./topics/array/longest-well-performing-interval.md)
     - [1053\. Previous Permutation With One Swap](./topics/array/previous-permutation-with-one-swap.md)
