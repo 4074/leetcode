@@ -190,6 +190,8 @@ My leetcode solutions for Javascript / Swift / Mysql
 ### Tree
 
 - Sub Tree
+    - [235\. Lowest Common Ancestor of a Binary Search Tree](./topics/tree/lowest-common-ancestor-of-a-binary-search-tree.md)
+    - [236\. Lowest Common Ancestor of a Binary Tree](./topics/tree/lowest-common-ancestor-of-a-binary-tree.md)
     - [1372\. Longest ZigZag Path in a Binary Tree](./topics/search/longest-zigzag-path-in-a-binary-tree.md)
     - [1373\. Maximum Sum BST in Binary Tree](./topics/search/maximum-sum-bst-in-binary-tree.md)
 - Binary Search Tree
