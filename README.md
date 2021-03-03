@@ -308,6 +308,7 @@ My leetcode solutions for Javascript / Swift / Mysql
     - [148\. Sort List](./topics/linked-list/sort-list.md)
     - [160\. Intersection of Two Linked Lists](./topics/linked-list/intersection-of-two-linked-lists.md)
     - [206\. Reverse Linked List](./topics/linked-list/reverse-linked-list.md)
+    - [234\. Palindrome Linked List](./topics/linked-list/palindrome-linked-list.md)
     - [445\. Add Two Numbers II](./topics/linked-list/add-two-numbers-ii.md)
 
 ### Rule
