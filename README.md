@@ -316,3 +316,7 @@ My leetcode solutions for Javascript / Swift / Mysql
 ### Rule
 - Common
     - [89\. Gray Code](./topics/rule/gray-code.md)
+
+### Divide and Conquer
+- Common
+    - [241\. Different Ways to Add Parentheses](./topics/divide-and-conquer/different-ways-to-add-parentheses.md)
