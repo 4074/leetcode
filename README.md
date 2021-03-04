@@ -190,6 +190,8 @@ My leetcode solutions for Javascript / Swift / Mysql
 ### Tree
 
 - Sub Tree
+    - [235\. Lowest Common Ancestor of a Binary Search Tree](./topics/tree/lowest-common-ancestor-of-a-binary-search-tree.md)
+    - [236\. Lowest Common Ancestor of a Binary Tree](./topics/tree/lowest-common-ancestor-of-a-binary-tree.md)
     - [1372\. Longest ZigZag Path in a Binary Tree](./topics/search/longest-zigzag-path-in-a-binary-tree.md)
     - [1373\. Maximum Sum BST in Binary Tree](./topics/search/maximum-sum-bst-in-binary-tree.md)
 - Binary Search Tree
@@ -309,8 +311,13 @@ My leetcode solutions for Javascript / Swift / Mysql
     - [148\. Sort List](./topics/linked-list/sort-list.md)
     - [160\. Intersection of Two Linked Lists](./topics/linked-list/intersection-of-two-linked-lists.md)
     - [206\. Reverse Linked List](./topics/linked-list/reverse-linked-list.md)
+    - [234\. Palindrome Linked List](./topics/linked-list/palindrome-linked-list.md)
     - [445\. Add Two Numbers II](./topics/linked-list/add-two-numbers-ii.md)
 
 ### Rule
 - Common
     - [89\. Gray Code](./topics/rule/gray-code.md)
+
+### Divide and Conquer
+- Common
+    - [241\. Different Ways to Add Parentheses](./topics/divide-and-conquer/different-ways-to-add-parentheses.md)
