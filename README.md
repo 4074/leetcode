@@ -201,6 +201,9 @@ My leetcode solutions for Javascript / Swift / Mysql
     - [1172\. Dinner Plate Stacks](./topics/tree/dinner-plate-stacks.md)
 - Binary Complete Tree
     - [222\. Count Complete Tree Nodes](./topics/tree/count-complete-tree-nodes.md)
+- Serialize
+    - [297\. Serialize and Deserialize Binary Tree](./topics/tree/serialize-and-deserialize-binary-tree.md)
+    - [652\. Find Duplicate Subtrees](./topics/tree/find-duplicate-subtrees.md)
 
 ### String
 
