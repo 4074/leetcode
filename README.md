@@ -10,7 +10,8 @@ My leetcode solutions for Javascript / Swift / Mysql
     - [718\. Maximum Length of Repeated Subarray](./topics/dp/maximumLengthOfRepeatedSubarray.md)
     - [1438\. Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit](./topics/array/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit.md)
 - Subsequence
-    - [300\. Longest Increasing Subsequence](./topics/dp/longest-increasing-subsequence.md) 
+    - [300\. Longest Increasing Subsequence](./topics/dp/longest-increasing-subsequence.md)
+    - [376\. Wiggle Subsequence](./topics/dp/wiggle-subsequence.md)
     - [1027\. Longest Arithmetic Sequence](./topics/dp/longestArithmeticSequence.md)
     - [1143\. Longest Common Subsequence](./topics/dp/longestCommonSubsequence.md)
     - [516\. Longest Palindromic Subsequence](./topics/dp/longestPalindromicSubsequence.md)
