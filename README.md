@@ -180,6 +180,7 @@ My leetcode solutions for Javascript / Swift / Mysql
     - [5455\. Minimum Number of Days to Make m Bouquets](./topics/search/minimum-number-of-days-to-make-m-bouquets.md)
     - [1552\. Magnetic Force Between Two Balls](./topics/search/magnetic-force-between-two-balls.md)
     - [1648\. Sell Diminishing-Valued Colored Balls](./topics/search/sell-diminishing-valued-colored-balls.md)
+    - [1802\. Maximum Value at a Given Index in a Bounded Array](./topics/search/maximum-value-at-a-given-index-in-a-bounded-array.md)
 - Union Find
     - [1202\. Smallest String With Swaps](./topics/search/smallest-string-with-swaps.md)
     - [1318\. Minimum Flips to Make a OR b Equal to c](./topics/search/minimumFlipsToMakeAOrBQqualToC.md)
