@@ -245,6 +245,7 @@ My leetcode solutions for Javascript / Swift / Mysql
     - [1131\. Maximum of Absolute Value Expression](./topics/math/maximum-of-absolute-value-expression.md)
     - [1093\. Statistics from a Large Sample](./topics/math/statistics-from-a-large-sample.md)
 - Combination Number
+    - [869\. Reordered Power of 2](./topics/math/reordered-power-of-2.md)
     - [1512\. Number of Good Pairs](./topics/math/number-of-good-pairs.md)
     - [1513\. Number of Substrings With Only 1s](./topics/math/number-of-substrings-with-only-1s.md)
 - Base k
