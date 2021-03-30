@@ -74,6 +74,7 @@ My leetcode solutions for Javascript / Swift / Mysql
     - [1125\. Smallest Sufficient Team](./topics/dp/smallest-sufficient-team.md)
     - [678\. Valid Parenthesis String](./topics/dp/valid-parenthesis-string.md)
 - Sort First
+    - [354\. Russian Doll Envelopes](./topics/dp/russian-doll-envelopes.md)
     - [1024\. Video Stitching](./topics/dp/videoStitching.md)
     - [1048\. Longest String Chain](./topics/dp/longestStringChain.md)
     - [646\. Maximum Length of Pair Chain](./topics/dp/maximumLengthOfPairChain.md)
