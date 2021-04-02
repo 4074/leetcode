@@ -19,6 +19,7 @@ My leetcode solutions for Javascript / Swift / Mysql
     - [1092\. Shortest Common Supersequence](./topics/dp/shortest-common-supersequence.md)
     - [1425\. Constrained Subsequence Sum](./topics/dp/constrained-subsequence-sum.md)
     - [1458\. Max Dot Product of Two Subsequences](./topics/dp/max-dot-product-of-two-subsequences.md)
+    - [474\. Ones and Zeroes](./topics/dp/ones-and-zeroes.md)
 - Group
     - [87\. Scramble String](./topics/dp/scramble-string.md)
     - [139\. Word Break](./topics/dp/word-break.md)
