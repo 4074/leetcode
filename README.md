@@ -102,6 +102,7 @@ My leetcode solutions for Javascript / Swift / Mysql
     - [1537\. Get the Maximum Score](./topics/dp/get-the-maximum-score.md)
     - [1553\. Minimum Number of Days to Eat N Oranges](./topics/dp/minimum-number-of-days-to-eat-n-oranges.md)
     - [1594\. Maximum Non Negative Product in a Matrix](./topics/dp/maximum-non-negative-product-in-a-matrix.md)
+    - [1824\. Minimum Sideway Jumps](./topics/dp/minimum-sideway-jumps.md)
 - Multiple of Number
     - [1262\. Greatest Sum Divisible by Three](./topics/dp/greatest-sum-divisible-by-three.md)
     - [1363\. Largest Multiple of Three](./topics/dp/largest-multiple-of-three.md)
