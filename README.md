@@ -113,6 +113,7 @@ My leetcode solutions for Javascript / Swift / Mysql
     - [1388\. Pizza With 3n Slices](./topics/dp/pizza-with-3n-slices.md)
 - Change direction
     - [1434\. Number of Ways to Wear Different Hats to Each Other](./topics/dp/number-of-ways-to-wear-different-hats-to-each-other.md)
+    - [1840\. Maximum Building Height](./topics/dp/maximum-building-height.md)
 - Knapsack
     - [1049\. Last Stone Weight II](./topics/dp/last-stone-weight-ii.md)
     - [1449\. Form Largest Integer With Digits That Add up to Target](./topics/dp/form-largest-integer-with-digits-that-add-up-to-target.md)
@@ -286,6 +287,8 @@ My leetcode solutions for Javascript / Swift / Mysql
     - [845\. Longest Mountain in Array](./topics/array/longest-mountain-in-array.md)
     - [1477\. Find Two Non-overlapping Sub-arrays Each With Target Sum](./topics/array/find-two-non-overlapping-sub-arrays-each-with-target-sum.md)
     - [1712\. Ways to Split Array Into Three Subarrays](./topics/array/ways-to-split-array-into-three-subarrays.md)
+    - [1838\. Frequency of the Most Frequent Element](./topics/array/frequency-of-the-most-frequent-element.md)
+    - [1839\. Longest Substring Of All Vowels in Order](./topics/array/longest-substring-of-all-vowels-in-order.md)
 - Sort
     - [164\. Maximum Gap](./topics/array/maximum-gap.md)
     - [215\. Kth Largest Element in an Array](./topics/array/kth-largest-element-in-an-array.md)
