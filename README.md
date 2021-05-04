@@ -129,6 +129,7 @@ My leetcode solutions for Javascript / Swift / Mysql
     - [678\. Valid Parenthesis String](./topics/dp/valid-parenthesis-string.md)
     - [1665\. Minimum Initial Energy to Finish Tasks](./topics/greedy/minimum-initial-energy-to-finish-tasks.md)
     - [1713\. Minimum Operations to Make a Subsequence](./topics/greedy/minimum-operations-to-make-a-subsequence.md)
+    - [659\. Split Array into Consecutive Subsequences](./topics/greedy/split-array-into-consecutive-subsequences.md)
 
 ### Search
 
