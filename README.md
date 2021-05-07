@@ -40,6 +40,7 @@ My leetcode solutions for Javascript / Swift / Mysql
     - [44\. Wildcard Matching](./topics/dp/wildcard-matching.md)
     - [63\. Unique Paths II](./topics/dp/unique-paths-ii.md)
     - [221\. Maximal Square](./topics/dp/maximal-square.md)
+    - [329\. Longest Increasing Path in a Matrix](./topics/dp/longest-increasing-path-in-a-matrix.md)
     - [1314\. Matrix Block Sum](./topics/dp/matrixBlockSum.md)
     - [1293\. Shortest Path in a Grid with Obstacles Elimination](./topics/search/shortestPathInAGridWithObstaclesElimination.md)
     - [1368\. Minimum Cost to Make at Least One Valid Path in a Grid](./topics/search/minimum-cost-to-make-at-least-one-valid-path-in-a-grid.md)
