@@ -118,6 +118,8 @@ My leetcode solutions for Javascript / Swift / Mysql
 - Knapsack
     - [1049\. Last Stone Weight II](./topics/dp/last-stone-weight-ii.md)
     - [1449\. Form Largest Integer With Digits That Add up to Target](./topics/dp/form-largest-integer-with-digits-that-add-up-to-target.md)
+- Consider the last item
+    - [1866\. Number of Ways to Rearrange Sticks With K Sticks Visible](./topics/dp/number-of-ways-to-rearrange-sticks-with-k-sticks-visible.md)
 
 ### Greedy
 - Greedy
