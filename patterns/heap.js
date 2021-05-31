@@ -11,9 +11,9 @@ class Heap {
     this.arr[j] = tmp
   }
 
-  constructor(arr, comparator) {
-    this.arr = arr || []
-    this.comparator = comparator || ((parent, child) => parent < child ? -1 : 1)
+  constructor(comparator, arr = []) {
+    this.arr = arr 
+    this.comparator = comparator
     this.size = this.arr.length
 
     for (let i = Math.floor((this.size - 1) / 2); i >= 0; i -= 1) {
