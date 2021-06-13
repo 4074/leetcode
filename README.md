@@ -230,6 +230,9 @@ My leetcode solutions for Javascript / Swift / Mysql
     - [87\. Scramble String](./topics/dp/scramble-string.md)
     - [97\. Interleaving String](./topics/dp/interleaving-string.md)
     - [1316\. Distinct Echo Substrings](./topics/string/distinctEchoSubstrings.md)
+
+- KMP
+    - [28\. Implement strStr()](./topics/string/implement-strstr.md)
     - [1392\. Longest Happy Prefix](./topics/string/longest-happy-prefix.md)
 
 - Bit
