@@ -215,7 +215,8 @@ My leetcode solutions for Javascript / Swift / Mysql
 - Serialize
     - [297\. Serialize and Deserialize Binary Tree](./topics/tree/serialize-and-deserialize-binary-tree.md)
     - [652\. Find Duplicate Subtrees](./topics/tree/find-duplicate-subtrees.md)
-
+- Segment Tree
+    - [307\. Range Sum Query - Mutable](./topics/tree/range-sum-query-mutable.md)
 ### String
 
 - Frequency
