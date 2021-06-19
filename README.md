@@ -233,6 +233,7 @@ My leetcode solutions for Javascript / Swift / Mysql
 
 - KMP
     - [28\. Implement strStr()](./topics/string/implement-strstr.md)
+    - [214\. Shortest Palindrome](./topics/string/shortest-palindrome.md)
     - [1392\. Longest Happy Prefix](./topics/string/longest-happy-prefix.md)
 
 - Bit
