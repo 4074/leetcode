@@ -9,13 +9,20 @@ class Heap {
     const tmp = this.arr[i]
     this.arr[i] = this.arr[j]
     this.arr[j] = tmp
+    this.setId(this.arr[i], i)
+    this.setId(this.arr[j], j)
   }
+  indexMap = new Map()
 
   constructor(comparator, arr = []) {
     this.arr = arr 
     this.comparator = comparator
     this.size = this.arr.length
 
+    for (let i = 0; i < this.arr.length; i += 1) {
+      this.setId(this.arr[i], i)
+    }
+    
     for (let i = Math.floor((this.size - 1) / 2); i >= 0; i -= 1) {
       this.heapify(i)
     }
@@ -39,6 +46,7 @@ class Heap {
 
   push(item) {
     this.arr.push(item)
+    this.setId(item, this.size)
     this.size += 1
 
     let c = this.size - 1
@@ -72,6 +80,26 @@ class Heap {
     }
     this.size = this.arr.length
     return [...this.arr]
+  }
+
+  remove(index) {
+    this.swap(index, this.size - 1)
+    this.size -= 1
+    this.heapify(index)
+    return this.arr.pop()
+  }
+
+  setId(item, index) {
+    if (typeof item === 'object' && item.id !== undefined) {
+      this.indexMap.set(item.id, index)
+    }
+  }
+
+  removeById(id) {
+    if (!this.indexMap.has(id)) return
+    const index = this.indexMap.get(id)
+    this.indexMap.delete(id)
+    return this.remove(index)
   }
 }
 

@@ -322,6 +322,8 @@ My leetcode solutions for Javascript / Swift / Mysql
 ### Heap
 - Min-Heap
     - [1642\. Furthest Building You Can Reach](./topics/heap/furthest-building-you-can-reach.md)
+- Quick Remove
+    - [218\. The Skyline Problem](./topics/heap/the-skyline-problem.md)
 
 ### Linked-List
 - Common
