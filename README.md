@@ -234,6 +234,7 @@ My leetcode solutions for Javascript / Swift / Mysql
 
 - KMP
     - [28\. Implement strStr()](./topics/string/implement-strstr.md)
+    - [214\. Shortest Palindrome](./topics/string/shortest-palindrome.md)
     - [1392\. Longest Happy Prefix](./topics/string/longest-happy-prefix.md)
 
 - Bit
@@ -252,6 +253,7 @@ My leetcode solutions for Javascript / Swift / Mysql
     - [172\. Factorial Trailing Zeroes](./topics/math/factorial-trailing-zeroes.md)
     - [204\. Count Primes](./topics/math/count-primes.md)
     - [224\. Basic Calculator](./topics/math/basic-calculator.md)
+    - [233\. Number of Digit One](./topics/math/number-of-digit-one.md)
     - [458\. Poor Pigs](./topics/math/poor-pigs.md)
     - [991\. Broken Calculator](./topics/math/broken-calculator.md)
     - [1131\. Maximum of Absolute Value Expression](./topics/math/maximum-of-absolute-value-expression.md)
@@ -307,6 +309,7 @@ My leetcode solutions for Javascript / Swift / Mysql
 - Monotonic(单调栈)
     - [84\. Largest Rectangle in Histogram](./topics/stack/largest-rectangle-in-histogram.md)
     - [85\. Maximal Rectangle](./topics/stack/maximal-rectangle.md)
+    - [239\. Sliding Window Maximum](./topics/stack/sliding-window-maximum.md)
     - [1081\. Smallest Subsequence of Distinct Characters](./topics/stack/smallest-subsequence-of-distinct-characters.md)
     - [1425\. Constrained Subsequence Sum](./topics/dp/constrained-subsequence-sum.md)
     - [1438\. Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit](./topics/array/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit.md)
@@ -321,6 +324,8 @@ My leetcode solutions for Javascript / Swift / Mysql
 ### Heap
 - Min-Heap
     - [1642\. Furthest Building You Can Reach](./topics/heap/furthest-building-you-can-reach.md)
+- Quick Remove
+    - [218\. The Skyline Problem](./topics/heap/the-skyline-problem.md)
 
 ### Linked-List
 - Common
