@@ -166,6 +166,7 @@ My leetcode solutions for Javascript / Swift / Mysql
     - [1091\. Shortest Path in Binary Matrix](./topics/search/shortest-path-in-binary-matrix.md)
     - [1514\. Path with Maximum Probability](./topics/search/path-with-maximum-probability.md)
     - [1519\. Number of Nodes in the Sub-Tree With the Same Label](./topics/search/number-of-nodes-in-the-sub-tree-with-the-same-label.md)
+    - [1905\. Count Sub Islands](./topics/search/count-sub-islands.md)
 - Combination
     - [77\. Combinations](./topics/search/combinations.md)
     - [39\. Combination Sum](./topics/search/combinationSum.md)
@@ -303,6 +304,8 @@ My leetcode solutions for Javascript / Swift / Mysql
 - Sort
     - [164\. Maximum Gap](./topics/array/maximum-gap.md)
     - [215\. Kth Largest Element in an Array](./topics/array/kth-largest-element-in-an-array.md)
+- Prefix
+    - [1906\. Minimum Absolute Difference Queries](./topics/array/minimum-absolute-difference-queries.md)
 ### Stack/Queue
 - Stack
     - [32\. Longest Valid Parentheses](./topics/stack/longest-valid-parentheses.md)
