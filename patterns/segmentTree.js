@@ -1,18 +1,17 @@
 class SegmentTree {
-  constructor(arr) {
-    this.arr = arr
-    this.root = this.createNode(0, arr.length - 1)
+  constructor(start, end, values) {
+    this.root = this.createNode(start, end, values)
   }
  
-  createNode(start, end) {
+  createNode(start, end, values) {
     const node = new SegmentTreeNode(start, end)
     if (start < end) {
       const mid = Math.floor((start + end) / 2)
-      node.left = this.createNode(start, mid)
-      node.right = this.createNode(mid + 1, end)
+      node.left = this.createNode(start, mid, values)
+      node.right = this.createNode(mid + 1, end, values)
       node.val = node.left.val + node.right.val
     } else {
-      node.val = this.arr[start]
+      node.val = values ? values[start] : 0
     }
     return node
   }
