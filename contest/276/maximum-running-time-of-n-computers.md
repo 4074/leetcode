@@ -43,8 +43,8 @@ We can run the two computers simultaneously for at most 2 minutes, so we return 
 
 **Constraints:**
 
-*   `1 <= n <= batteries.length <= 10<sup>5</sup>`
-*   `1 <= batteries[i] <= 10<sup>9</sup>`
+*   1 <= n <= batteries.length <= 10<sup>5</sup>
+*   1 <= batteries[i] <= 10<sup>9</sup>
 
 
 #### Solution
